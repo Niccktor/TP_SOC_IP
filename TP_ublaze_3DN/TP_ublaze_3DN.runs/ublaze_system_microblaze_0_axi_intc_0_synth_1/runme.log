@@ -10,7 +10,7 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source ublaze_system_microblaze_0_axi_intc_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1001.816 ; gain = 117.707
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1001.852 ; gain = 117.648
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ublaze_system_microblaze_0_axi_intc_0
 Command: synth_design -top ublaze_system_microblaze_0_axi_intc_0 -part xc7a35tcpg236-1 -incremental_mode off -mode out_of_context
 Starting synth_design
@@ -19,22 +19,22 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 21396
+INFO: [Synth 8-7075] Helper process launched with PID 9724
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 1824.383 ; gain = 406.719
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1822.848 ; gain = 405.926
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_microblaze_0_axi_intc_0' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/synth/ublaze_system_microblaze_0_axi_intc_0.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_microblaze_0_axi_intc_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/synth/ublaze_system_microblaze_0_axi_intc_0.vhd:89]
 	Parameter C_FAMILY bound to: artix7 - type: string 
 	Parameter C_INSTANCE bound to: ublaze_system_microblaze_0_axi_intc_0 - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_NUM_INTR_INPUTS bound to: 2 - type: integer 
+	Parameter C_NUM_INTR_INPUTS bound to: 1 - type: integer 
 	Parameter C_NUM_SW_INTR bound to: 0 - type: integer 
 	Parameter C_KIND_OF_INTR bound to: 32'b11111111111111111111111111111100 
 	Parameter C_KIND_OF_EDGE bound to: 32'b11111111111111111111111111111111 
 	Parameter C_KIND_OF_LVL bound to: 32'b11111111111111111111111111111111 
-	Parameter C_ASYNC_INTR bound to: 32'b11111111111111111111111111111100 
+	Parameter C_ASYNC_INTR bound to: 32'b11111111111111111111111111111110 
 	Parameter C_NUM_SYNC_FF bound to: 2 - type: integer 
 	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_IVAR_RESET_VALUE bound to: 64'b0000000000000000000000000000000000000000000000000000000000010000 
@@ -51,64 +51,64 @@ INFO: [Synth 8-638] synthesizing module 'ublaze_system_microblaze_0_axi_intc_0' 
 	Parameter C_HAS_FAST bound to: 1 - type: integer 
 	Parameter C_EN_CASCADE_MODE bound to: 0 - type: integer 
 	Parameter C_CASCADE_MASTER bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'axi_intc' declared at 'c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:3452' bound to instance 'U0' of component 'axi_intc' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/synth/ublaze_system_microblaze_0_axi_intc_0.vhd:195]
-INFO: [Synth 8-638] synthesizing module 'axi_intc' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:3553]
-INFO: [Synth 8-638] synthesizing module 'intc_core' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:794]
-INFO: [Synth 8-638] synthesizing module 'shared_ram_ivar' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:320]
-INFO: [Synth 8-256] done synthesizing module 'shared_ram_ivar' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:320]
-INFO: [Synth 8-256] done synthesizing module 'intc_core' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:794]
-INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
-INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
-INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
-INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized12' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized12' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized13' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized13' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized14' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized14' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized15' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized15' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized16' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized16' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized17' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized17' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized18' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized18' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized19' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized19' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'address_decoder' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
-INFO: [Synth 8-226] default block is never used [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
-INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
-INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
-INFO: [Synth 8-256] done synthesizing module 'axi_intc' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:3553]
-INFO: [Synth 8-256] done synthesizing module 'ublaze_system_microblaze_0_axi_intc_0' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/synth/ublaze_system_microblaze_0_axi_intc_0.vhd:89]
-WARNING: [Synth 8-6014] Unused sequential element ACK_EN_SYNC_ON_AXI_CLK_GEN.NO_CASCADE_MASTER.second_ack_sync_d3_reg was removed.  [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:1330]
+INFO: [Synth 8-3491] module 'axi_intc' declared at 'c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:3452' bound to instance 'U0' of component 'axi_intc' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/synth/ublaze_system_microblaze_0_axi_intc_0.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'axi_intc' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:3553]
+INFO: [Synth 8-638] synthesizing module 'intc_core' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:794]
+INFO: [Synth 8-638] synthesizing module 'shared_ram_ivar' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:320]
+INFO: [Synth 8-256] done synthesizing module 'shared_ram_ivar' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:320]
+INFO: [Synth 8-256] done synthesizing module 'intc_core' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:794]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized12' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized12' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized13' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized13' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized14' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized14' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized15' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized15' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized16' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized16' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized17' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized17' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized18' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized18' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized19' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized19' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'axi_intc' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:3553]
+INFO: [Synth 8-256] done synthesizing module 'ublaze_system_microblaze_0_axi_intc_0' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/synth/ublaze_system_microblaze_0_axi_intc_0.vhd:89]
+WARNING: [Synth 8-6014] Unused sequential element ACK_EN_SYNC_ON_AXI_CLK_GEN.NO_CASCADE_MASTER.second_ack_sync_d3_reg was removed.  [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd:1330]
 WARNING: [Synth 8-7129] Port A[1] in module pselect_f__parameterized17 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[2] in module pselect_f__parameterized17 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[3] in module pselect_f__parameterized17 is either unconnected or has no load
@@ -189,55 +189,55 @@ WARNING: [Synth 8-7129] Port Interrupt_address_in[1] in module intc_core is eith
 WARNING: [Synth 8-7129] Port Interrupt_address_in[0] in module intc_core is either unconnected or has no load
 WARNING: [Synth 8-7129] Port irq_in in module axi_intc is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1927.906 ; gain = 510.242
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1925.496 ; gain = 508.574
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:01:02 . Memory (MB): peak = 1927.906 ; gain = 510.242
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1925.496 ; gain = 508.574
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:41 ; elapsed = 00:01:02 . Memory (MB): peak = 1927.906 ; gain = 510.242
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1925.496 ; gain = 508.574
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 1927.906 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1925.496 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0_ooc.xdc] for cell 'U0'
-Parsing XDC File [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0.xdc] for cell 'U0'
-Parsing XDC File [C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/dont_touch.xdc]
-Parsing XDC File [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0_clocks.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0_clocks.xdc] for cell 'U0'
+Parsing XDC File [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0.xdc] for cell 'U0'
+Parsing XDC File [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0_clocks.xdc] for cell 'U0'
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2006.922 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2004.203 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 2008.211 ; gain = 1.289
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2004.922 ; gain = 0.719
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:17 ; elapsed = 00:01:43 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:17 ; elapsed = 00:01:43 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:17 ; elapsed = 00:01:43 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'IRQ_LEVEL_GEN.IRQ_LEVEL_FAST_ON_AXI_CLK_GEN.current_state_reg' in module 'intc_core'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
@@ -259,7 +259,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'IRQ_LEVEL_GEN.IRQ_LEVEL_FA
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:19 ; elapsed = 00:01:45 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -271,18 +271,17 @@ Detailed RTL Component Info :
 	               32 Bit    Registers := 4     
 	                9 Bit    Registers := 1     
 	                4 Bit    Registers := 1     
-	                2 Bit    Registers := 5     
-	                1 Bit    Registers := 61    
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 56    
 +---Muxes : 
 	   2 Input   32 Bit        Muxes := 3     
-	   2 Input   30 Bit        Muxes := 1     
 	   2 Input    9 Bit        Muxes := 1     
 	   4 Input    4 Bit        Muxes := 1     
 	   2 Input    4 Bit        Muxes := 6     
 	   3 Input    2 Bit        Muxes := 2     
-	   2 Input    2 Bit        Muxes := 10    
-	   4 Input    2 Bit        Muxes := 2     
-	   2 Input    1 Bit        Muxes := 32    
+	   2 Input    2 Bit        Muxes := 8     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 29    
 	   4 Input    1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -323,7 +322,7 @@ WARNING: [Synth 8-7129] Port interrupt_address_in[15] in module axi_intc is eith
 WARNING: [Synth 8-7129] Port interrupt_address_in[14] in module axi_intc is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:28 ; elapsed = 00:01:55 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -344,19 +343,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:49 ; elapsed = 00:02:17 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:54 ; elapsed = 00:02:23 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:55 ; elapsed = 00:02:24 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -374,37 +373,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:11 ; elapsed = 00:02:42 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:11 ; elapsed = 00:02:42 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:11 ; elapsed = 00:02:42 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:11 ; elapsed = 00:02:42 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:11 ; elapsed = 00:02:42 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:11 ; elapsed = 00:02:42 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -421,40 +420,40 @@ Report Cell Usage:
 |      |Cell     |Count |
 +------+---------+------+
 |1     |LUT1     |     2|
-|2     |LUT2     |    20|
-|3     |LUT3     |    20|
-|4     |LUT4     |    60|
-|5     |LUT5     |    26|
-|6     |LUT6     |    27|
+|2     |LUT2     |    15|
+|3     |LUT3     |    49|
+|4     |LUT4     |    30|
+|5     |LUT5     |    19|
+|6     |LUT6     |    19|
 |7     |RAM16X1D |    32|
-|8     |FDRE     |   179|
+|8     |FDRE     |   168|
 |9     |FDSE     |     2|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:11 ; elapsed = 00:02:42 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2004.922 ; gain = 588.000
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 36 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:21 ; elapsed = 00:02:32 . Memory (MB): peak = 2008.211 ; gain = 510.242
-Synthesis Optimization Complete : Time (s): cpu = 00:02:11 ; elapsed = 00:02:43 . Memory (MB): peak = 2008.211 ; gain = 590.547
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 2004.922 ; gain = 508.574
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2004.922 ; gain = 588.000
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2008.211 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2004.922 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 32 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2008.211 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2004.922 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 32 instances were transformed.
   RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
 
-Synth Design complete, checksum: 4f7ed0dd
+Synth Design complete, checksum: 46abd4d6
 INFO: [Common 17-83] Releasing license: Synthesis
 81 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:30 ; elapsed = 00:03:32 . Memory (MB): peak = 2008.211 ; gain = 968.266
-INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/ublaze_system_microblaze_0_axi_intc_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ublaze_system_microblaze_0_axi_intc_0, cache-ID = 8d6eeec47e1b3bb4
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 2004.922 ; gain = 964.957
+INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/ublaze_system_microblaze_0_axi_intc_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ublaze_system_microblaze_0_axi_intc_0, cache-ID = 60515d29d178f425
 INFO: [Coretcl 2-1174] Renamed 6 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/ublaze_system_microblaze_0_axi_intc_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_microblaze_0_axi_intc_0_synth_1/ublaze_system_microblaze_0_axi_intc_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ublaze_system_microblaze_0_axi_intc_0_utilization_synth.rpt -pb ublaze_system_microblaze_0_axi_intc_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 28 14:28:54 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon May  5 14:04:34 2025...

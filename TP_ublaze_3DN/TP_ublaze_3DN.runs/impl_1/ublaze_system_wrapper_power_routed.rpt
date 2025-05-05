@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Mon Apr 28 14:37:48 2025
+| Date             : Mon May  5 14:36:38 2025
 | Host             : DESKTOP-1AMI1JA running 64-bit major release  (build 9200)
 | Command          : report_power -file ublaze_system_wrapper_power_routed.rpt -pb ublaze_system_wrapper_power_summary_routed.pb -rpx ublaze_system_wrapper_power_routed.rpx
 | Design           : ublaze_system_wrapper
@@ -53,16 +53,16 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.011 |        7 |       --- |             --- |
-| Slice Logic              |     0.005 |     5704 |       --- |             --- |
-|   LUT as Logic           |     0.004 |     1941 |     20800 |            9.33 |
+| Slice Logic              |     0.004 |     5672 |       --- |             --- |
+|   LUT as Logic           |     0.003 |     1924 |     20800 |            9.25 |
 |   LUT as Distributed RAM |    <0.001 |       96 |      9600 |            1.00 |
 |   CARRY4                 |    <0.001 |       86 |      8150 |            1.06 |
-|   Register               |    <0.001 |     2206 |     41600 |            5.30 |
+|   Register               |    <0.001 |     2195 |     41600 |            5.28 |
 |   F7/F8 Muxes            |    <0.001 |      109 |     32600 |            0.33 |
 |   LUT as Shift Register  |    <0.001 |       74 |      9600 |            0.77 |
 |   Others                 |    <0.001 |      608 |       --- |             --- |
-| Signals                  |     0.009 |     3815 |       --- |             --- |
-| Block RAM                |     0.007 |       32 |        50 |           64.00 |
+| Signals                  |     0.009 |     3793 |       --- |             --- |
+| Block RAM                |     0.008 |       32 |        50 |           64.00 |
 | MMCM                     |     0.106 |        1 |         5 |           20.00 |
 | I/O                      |    <0.001 |       52 |       106 |           49.06 |
 | Static Power             |     0.073 |          |           |                 |
@@ -157,8 +157,8 @@ Table of Contents
 |       U0                      |     0.004 |
 |     clk_wiz_0                 |     0.106 |
 |       inst                    |     0.106 |
-|     microblaze_0              |     0.015 |
-|       U0                      |     0.015 |
+|     microblaze_0              |     0.014 |
+|       U0                      |     0.014 |
 |     microblaze_0_axi_intc     |     0.001 |
 |       U0                      |     0.001 |
 |     microblaze_0_axi_periph   |     0.001 |

@@ -1,27 +1,44 @@
-17:26:21 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
+14:57:31 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include/xgpio.h:116,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'GPIO_Init':
+C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include/xstatus.h:43:41: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   43 | #define XST_FAILURE                     1L
+      |                                         ^~
+../src/helloworld.c:279:24: note: in expansion of macro 'XST_FAILURE'
+  279 |                 return XST_FAILURE;
+      |                        ^~~~~~~~~~~
+../src/helloworld.c:272:6: note: declared here
+  272 | void GPIO_Init(void)
+      |      ^~~~~~~~~
+In file included from C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include/xgpio.h:116,
+                 from ../src/helloworld.c:51:
+C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include/xstatus.h:43:41: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   43 | #define XST_FAILURE                     1L
+      |                                         ^~
+../src/helloworld.c:286:24: note: in expansion of macro 'XST_FAILURE'
+  286 |                 return XST_FAILURE;
+      |                        ^~~~~~~~~~~
+../src/helloworld.c:272:6: note: declared here
+  272 | void GPIO_Init(void)
+      |      ^~~~~~~~~
 'Finished building: ../src/helloworld.c'
 ' '
-'Building file: ../src/it_timer.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/it_timer.o" -IC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/it_timer.d" -MT"src/it_timer.o" -o "src/it_timer.o" "../src/it_timer.c"
-../src/it_timer.c: In function 'init_interrupts':
-../src/it_timer.c:65:41: error: 'XPAR_INTC_0_TMRCTR_0_INTERRUPT_VEC_ID' undeclared (first use in this function)
-   65 | #define TMRCTR_INTERRUPT_ID             XPAR_INTC_0_TMRCTR_0_INTERRUPT_VEC_ID
-      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/it_timer.c:65:41: note: in definition of macro 'TMRCTR_INTERRUPT_ID'
-   65 | #define TMRCTR_INTERRUPT_ID             XPAR_INTC_0_TMRCTR_0_INTERRUPT_VEC_ID
-      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/it_timer.c:65:41: note: each undeclared identifier is reported only once for each function it appears in
-   65 | #define TMRCTR_INTERRUPT_ID             XPAR_INTC_0_TMRCTR_0_INTERRUPT_VEC_ID
-      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/it_timer.c:65:41: note: in definition of macro 'TMRCTR_INTERRUPT_ID'
-   65 | #define TMRCTR_INTERRUPT_ID             XPAR_INTC_0_TMRCTR_0_INTERRUPT_VEC_ID
-      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-make: *** [src/subdir.mk:29: src/it_timer.o] Error 1
+'Building target: TP_ublaze_Software_3D.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TP_ublaze_Software_3D.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TP_ublaze_Software_3D.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size TP_ublaze_Software_3D.elf  |tee "TP_ublaze_Software_3D.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8964	    396	   3352	  12712	   31a8	TP_ublaze_Software_3D.elf
+'Finished building: TP_ublaze_Software_3D.elf.size'
+' '
 
-17:26:21 Build Finished (took 648ms)
+14:57:32 Build Finished (took 880ms)
 

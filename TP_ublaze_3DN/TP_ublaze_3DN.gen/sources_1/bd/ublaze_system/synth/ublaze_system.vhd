@@ -1,7 +1,7 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
---Date        : Mon Apr 28 14:23:50 2025
+--Date        : Mon May  5 14:34:26 2025
 --Host        : DESKTOP-1AMI1JA running 64-bit major release  (build 9200)
 --Command     : generate_target ublaze_system.bd
 --Design      : ublaze_system
@@ -2280,7 +2280,7 @@ entity ublaze_system is
     usb_uart_txd : out STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of ublaze_system : entity is "ublaze_system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=ublaze_system,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=26,numReposBlks=17,numNonXlnxBlks=0,numHierBlks=9,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=7,da_board_cnt=2,da_mb_cnt=1,synth_mode=OOC_per_IP}";
+  attribute CORE_GENERATION_INFO of ublaze_system : entity is "ublaze_system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=ublaze_system,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=25,numReposBlks=16,numNonXlnxBlks=0,numHierBlks=9,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=7,da_board_cnt=2,da_mb_cnt=1,synth_mode=OOC_per_IP}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of ublaze_system : entity is "ublaze_system.hwdef";
 end ublaze_system;
@@ -2371,7 +2371,7 @@ architecture STRUCTURE of ublaze_system is
     s_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_rvalid : out STD_LOGIC;
     s_axi_rready : in STD_LOGIC;
-    intr : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    intr : in STD_LOGIC_VECTOR ( 0 to 0 );
     processor_clk : in STD_LOGIC;
     processor_rst : in STD_LOGIC;
     irq : out STD_LOGIC;
@@ -2379,13 +2379,6 @@ architecture STRUCTURE of ublaze_system is
     interrupt_address : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   end component ublaze_system_microblaze_0_axi_intc_0;
-  component ublaze_system_microblaze_0_xlconcat_0 is
-  port (
-    In0 : in STD_LOGIC_VECTOR ( 0 to 0 );
-    In1 : in STD_LOGIC_VECTOR ( 0 to 0 );
-    dout : out STD_LOGIC_VECTOR ( 1 downto 0 )
-  );
-  end component ublaze_system_microblaze_0_xlconcat_0;
   component ublaze_system_mdm_1_0 is
   port (
     Debug_SYS_Rst : out STD_LOGIC;
@@ -2550,7 +2543,7 @@ architecture STRUCTURE of ublaze_system is
   signal axi_gpio_1_GPIO2_TRI_O : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal axi_gpio_1_GPIO_TRI_O : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal axi_gpio_2_GPIO_TRI_I : STD_LOGIC_VECTOR ( 3 downto 0 );
-  signal axi_gpio_2_ip2intc_irpt : STD_LOGIC;
+  signal axi_timer_0_interrupt : STD_LOGIC;
   signal axi_uartlite_0_UART_RxD : STD_LOGIC;
   signal axi_uartlite_0_UART_TxD : STD_LOGIC;
   signal clk_wiz_0_locked : STD_LOGIC;
@@ -2708,15 +2701,14 @@ architecture STRUCTURE of ublaze_system is
   signal microblaze_0_interrupt_ACK : STD_LOGIC_VECTOR ( 0 to 1 );
   signal microblaze_0_interrupt_ADDRESS : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal microblaze_0_interrupt_INTERRUPT : STD_LOGIC;
-  signal microblaze_0_intr : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal reset_1 : STD_LOGIC;
   signal rst_clk_wiz_0_100M_bus_struct_reset : STD_LOGIC_VECTOR ( 0 to 0 );
   signal rst_clk_wiz_0_100M_mb_reset : STD_LOGIC;
   signal rst_clk_wiz_0_100M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal sys_clock_1 : STD_LOGIC;
+  signal NLW_axi_gpio_2_ip2intc_irpt_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_timer_0_generateout0_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_timer_0_generateout1_UNCONNECTED : STD_LOGIC;
-  signal NLW_axi_timer_0_interrupt_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_timer_0_pwm0_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_uartlite_0_interrupt_UNCONNECTED : STD_LOGIC;
   signal NLW_rst_clk_wiz_0_100M_interconnect_aresetn_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -2799,7 +2791,7 @@ axi_gpio_1: component ublaze_system_axi_gpio_1_1
 axi_gpio_2: component ublaze_system_axi_gpio_2_0
      port map (
       gpio_io_i(3 downto 0) => axi_gpio_2_GPIO_TRI_I(3 downto 0),
-      ip2intc_irpt => axi_gpio_2_ip2intc_irpt,
+      ip2intc_irpt => NLW_axi_gpio_2_ip2intc_irpt_UNCONNECTED,
       s_axi_aclk => microblaze_0_Clk,
       s_axi_araddr(8 downto 0) => microblaze_0_axi_periph_M03_AXI_ARADDR(8 downto 0),
       s_axi_aresetn => rst_clk_wiz_0_100M_peripheral_aresetn(0),
@@ -2827,7 +2819,7 @@ axi_timer_0: component ublaze_system_axi_timer_0_0
       freeze => '0',
       generateout0 => NLW_axi_timer_0_generateout0_UNCONNECTED,
       generateout1 => NLW_axi_timer_0_generateout1_UNCONNECTED,
-      interrupt => NLW_axi_timer_0_interrupt_UNCONNECTED,
+      interrupt => axi_timer_0_interrupt,
       pwm0 => NLW_axi_timer_0_pwm0_UNCONNECTED,
       s_axi_aclk => microblaze_0_Clk,
       s_axi_araddr(4 downto 0) => microblaze_0_axi_periph_M05_AXI_ARADDR(4 downto 0),
@@ -2983,7 +2975,7 @@ microblaze_0: component ublaze_system_microblaze_0_3
 microblaze_0_axi_intc: component ublaze_system_microblaze_0_axi_intc_0
      port map (
       interrupt_address(31 downto 0) => microblaze_0_interrupt_ADDRESS(31 downto 0),
-      intr(1 downto 0) => microblaze_0_intr(1 downto 0),
+      intr(0) => axi_timer_0_interrupt,
       irq => microblaze_0_interrupt_INTERRUPT,
       processor_ack(1) => microblaze_0_interrupt_ACK(0),
       processor_ack(0) => microblaze_0_interrupt_ACK(1),
@@ -3172,12 +3164,6 @@ microblaze_0_local_memory: entity work.microblaze_0_local_memory_imp_1AUWEY6
       ILMB_wait => microblaze_0_ilmb_1_WAIT,
       LMB_Clk => microblaze_0_Clk,
       SYS_Rst => rst_clk_wiz_0_100M_bus_struct_reset(0)
-    );
-microblaze_0_xlconcat: component ublaze_system_microblaze_0_xlconcat_0
-     port map (
-      In0(0) => axi_gpio_2_ip2intc_irpt,
-      In1(0) => axi_gpio_2_ip2intc_irpt,
-      dout(1 downto 0) => microblaze_0_intr(1 downto 0)
     );
 rst_clk_wiz_0_100M: component ublaze_system_rst_clk_wiz_0_100M_0
      port map (

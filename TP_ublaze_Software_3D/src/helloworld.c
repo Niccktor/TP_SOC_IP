@@ -51,6 +51,8 @@
 #include "xgpio.h"
 #include "xparameters.h"
 #include "sleep.h"
+#include "xintc.h"
+#include "xtmrctr.h"
 
 #define GPIO_DEVICE_ID	XPAR_GPIO_0_DEVICE_ID
 #define LED_CHANNEL		2
@@ -60,8 +62,15 @@
 #define AN7SEG_CHANNEL 1
 #define DISP7SEG_CHANNEL 2
 
+
+
+
+
+
 XGpio Gpio;
 XGpio Gpio7seg;
+
+
 
 
 void test_led (void)
@@ -214,11 +223,57 @@ void switch2leds(void)
 }
 
 
-
-int main()
+void ledChenillardTimer(void)
 {
-	init_platform();
+	static u32 led_state;
+	static int pos = 0;
+	static int direction = 1;
 
+	led_state = (1 << pos);
+	pos += direction;
+	if (pos == 15)
+		direction = -1;
+	else if (pos == 0)
+		direction = 1;
+	XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, led_state);
+}
+
+#define TMR_DEVICE_ID      XPAR_TMRCTR_0_DEVICE_ID
+#define INTC_DEVICE_ID     XPAR_INTC_0_DEVICE_ID
+#define IRQ_VECTOR_ID      XPAR_INTC_0_TMRCTR_0_VEC_ID
+#define IRQ_VECTOR_ID2     XPAR_INTC_0_TMRCTR_1_VEC_ID
+
+static XTmrCtr TimerInst;
+static XIntc   IntcInst;
+
+void TimerHandler(void *CallBackRef, u8 TmrCtrNumber) {
+	// On reset l’interruption
+	XTmrCtr_Reset(&TimerInst, TmrCtrNumber);
+	ledChenillardTimer();
+}
+
+void Timer_init(void)
+{
+	XTmrCtr_Initialize(&TimerInst, TMR_DEVICE_ID);
+	XTmrCtr_SetHandler(&TimerInst, TimerHandler, &TimerInst);
+	XTmrCtr_SetOptions(&TimerInst, 0, XTC_DOWN_COUNT_OPTION | XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
+	XTmrCtr_SetResetValue(&TimerInst, 0, 12500000);
+
+
+	XIntc_Initialize(&IntcInst, INTC_DEVICE_ID);
+	XIntc_Connect(&IntcInst, IRQ_VECTOR_ID, (XInterruptHandler)XTmrCtr_InterruptHandler, &TimerInst);
+	XIntc_Start(&IntcInst, XIN_REAL_MODE);
+	XIntc_Enable(&IntcInst, IRQ_VECTOR_ID);
+
+	Xil_ExceptionInit();
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler,&IntcInst);
+	Xil_ExceptionEnable();
+
+	XTmrCtr_Start(&TimerInst, 0);
+}
+
+void GPIO_Init(void)
+{
 	int status;
 
 	// Initialiser le périphérique GPIO
@@ -235,13 +290,27 @@ int main()
 	}
 	XGpio_SetDataDirection(&Gpio7seg, AN7SEG_CHANNEL, 0x0000);     // 16 bits en sortie
 	XGpio_SetDataDirection(&Gpio7seg, DISP7SEG_CHANNEL, 0x0000);  // 16 bits en entrée
+}
+
+
+
+int main()
+{
+	init_platform();
+
+	GPIO_Init();
+	Timer_init();
+
 
 	hello2seg();
-	test7seg();
+	/*test7seg();
 	test_led();
 	switch2leds();
 	while(1)
-		ledChenillard();
+		ledChenillard();*/
+	while (1){
+
+	}
 
 	print("Hello World\n\r");
 	print("Successfully ran Hello World application");

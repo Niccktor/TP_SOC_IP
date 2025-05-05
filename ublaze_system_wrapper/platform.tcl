@@ -18,3 +18,10 @@ platform generate -domains
 platform active {ublaze_system_wrapper}
 platform generate -quick
 platform generate
+platform active {ublaze_system_wrapper}
+platform config -updatehw {C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa}
+platform generate
+platform config -updatehw {C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa}
+platform generate -domains 

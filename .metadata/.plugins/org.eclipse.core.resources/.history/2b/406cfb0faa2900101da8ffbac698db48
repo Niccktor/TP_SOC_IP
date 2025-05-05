@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="TP_ublaze_Software_3D" location="C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D" platform="C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/ublaze_system_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="TP_ublaze_Software_3D_system" sysConfig="ublaze_system_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="58a5e93e7ba13edcc962277e03c50c23">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.897995210">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1763370681" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

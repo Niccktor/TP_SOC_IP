@@ -34,9 +34,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ublaze_syst
 # IP: bd/ublaze_system/ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ublaze_system_microblaze_0_axi_intc_0 || ORIG_REF_NAME==ublaze_system_microblaze_0_axi_intc_0} -quiet] -quiet
 
-# IP: bd/ublaze_system/ip/ublaze_system_microblaze_0_xlconcat_0/ublaze_system_microblaze_0_xlconcat_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ublaze_system_microblaze_0_xlconcat_0 || ORIG_REF_NAME==ublaze_system_microblaze_0_xlconcat_0} -quiet] -quiet
-
 # IP: bd/ublaze_system/ip/ublaze_system_mdm_1_0/ublaze_system_mdm_1_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ublaze_system_mdm_1_0 || ORIG_REF_NAME==ublaze_system_mdm_1_0} -quiet] -quiet
 
@@ -58,4 +55,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ublaze_syst
 # IP: bd/ublaze_system/ip/ublaze_system_axi_timer_0_0/ublaze_system_axi_timer_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ublaze_system_axi_timer_0_0 || ORIG_REF_NAME==ublaze_system_axi_timer_0_0} -quiet] -quiet
 
-# XDC: c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ublaze_system_ooc.xdc
+# XDC: c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ublaze_system_ooc.xdc

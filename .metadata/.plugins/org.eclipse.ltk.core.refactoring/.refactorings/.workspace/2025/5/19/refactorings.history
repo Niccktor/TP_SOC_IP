@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;TP_ublaze_Software_3D/src/it_timer.c&apos;" deleteContents="false" description="Delete resource &apos;TP_ublaze_Software_3D/src/it_timer.c&apos;" element1="/TP_ublaze_Software_3D/src/it_timer.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1746447056710"/>
+</session>

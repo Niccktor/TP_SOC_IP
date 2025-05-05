@@ -31,7 +31,6 @@
         "m05_couplers": {}
       },
       "microblaze_0_axi_intc": "",
-      "microblaze_0_xlconcat": "",
       "mdm_1": "",
       "rst_clk_wiz_0_100M": "",
       "axi_gpio_0": "",
@@ -1152,12 +1151,6 @@
           }
         }
       },
-      "microblaze_0_xlconcat": {
-        "vlnv": "xilinx.com:ip:xlconcat:2.1",
-        "xci_name": "ublaze_system_microblaze_0_xlconcat_0",
-        "xci_path": "ip\\ublaze_system_microblaze_0_xlconcat_0\\ublaze_system_microblaze_0_xlconcat_0.xci",
-        "inst_hier_path": "microblaze_0_xlconcat"
-      },
       "mdm_1": {
         "vlnv": "xilinx.com:ip:mdm:3.2",
         "xci_name": "ublaze_system_mdm_1_0",
@@ -1358,11 +1351,10 @@
       }
     },
     "nets": {
-      "axi_gpio_2_ip2intc_irpt": {
+      "axi_timer_0_interrupt": {
         "ports": [
-          "axi_gpio_2/ip2intc_irpt",
-          "microblaze_0_xlconcat/In0",
-          "microblaze_0_xlconcat/In1"
+          "axi_timer_0/interrupt",
+          "microblaze_0_axi_intc/intr"
         ]
       },
       "clk_wiz_0_locked": {
@@ -1398,12 +1390,6 @@
           "microblaze_0_axi_periph/M04_ACLK",
           "axi_timer_0/s_axi_aclk",
           "microblaze_0_axi_periph/M05_ACLK"
-        ]
-      },
-      "microblaze_0_intr": {
-        "ports": [
-          "microblaze_0_xlconcat/dout",
-          "microblaze_0_axi_intc/intr"
         ]
       },
       "reset_1": {
