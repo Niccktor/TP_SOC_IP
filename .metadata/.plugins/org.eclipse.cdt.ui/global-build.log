@@ -1,6 +1,6 @@
 Nothing to build in platform 'ublaze_system_wrapper'
 
-15:54:56 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
+16:13:59 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -15,9 +15,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Workspace/TP_SOC_IP/ublaze_system_wrapp
 'Invoking: MicroBlaze Print Size'
 mb-size TP_ublaze_Software_3D.elf  |tee "TP_ublaze_Software_3D.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   8996	    396	   3360	  12752	   31d0	TP_ublaze_Software_3D.elf
+   9444	    396	   3360	  13200	   3390	TP_ublaze_Software_3D.elf
 'Finished building: TP_ublaze_Software_3D.elf.size'
 ' '
-15:54:58 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D_system ****
+16:14:01 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

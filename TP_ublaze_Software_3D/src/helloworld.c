@@ -62,6 +62,13 @@
 #define AN7SEG_CHANNEL 1
 #define DISP7SEG_CHANNEL 2
 
+#define TMR_DEVICE_ID      XPAR_TMRCTR_0_DEVICE_ID
+#define INTC_DEVICE_ID     XPAR_INTC_0_DEVICE_ID
+#define IRQ_VECTOR_ID      XPAR_INTC_0_TMRCTR_0_VEC_ID
+
+static XTmrCtr TimerInst;
+static XIntc   IntcInst;
+
 
 
 
@@ -240,8 +247,12 @@ void ledChenillardTimer(void)
 
 void refresh7seg(void)
 {
+	u32 switch_state;
+
 	while (1)
 	{
+		switch_state = XGpio_DiscreteRead(&Gpio, SWITCH_CHANNEL);
+		XTmrCtr_SetResetValue(&TimerInst, 0, 12500000 * ((switch_state & 0xF) + 1));
 		for (int j = 0; j < 4; j++)
 		{
 			XGpio_DiscreteWrite(&Gpio7seg, DISP7SEG_CHANNEL, digit_segments[j]);
@@ -283,12 +294,7 @@ void seg7NextChar(void)
 	i++;
 }
 
-#define TMR_DEVICE_ID      XPAR_TMRCTR_0_DEVICE_ID
-#define INTC_DEVICE_ID     XPAR_INTC_0_DEVICE_ID
-#define IRQ_VECTOR_ID      XPAR_INTC_0_TMRCTR_0_VEC_ID
 
-static XTmrCtr TimerInst;
-static XIntc   IntcInst;
 
 void TimerHandler(void *CallBackRef, u8 TmrCtrNumber) {
     // Reset de l’interruption du canal actif

@@ -4954,3 +4954,303 @@ con
 ----------------End of Script----------------
 
 15:55:07 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'
+16:02:51 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:03:01 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:03:04 INFO  : Disconnected from the channel tcfchan#17.
+16:03:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:03:05 INFO  : Jtag cable 'Digilent Basys3 210183A8A8F6A' is selected.
+16:03:05 INFO  : 'jtag frequency' command is executed.
+16:03:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}' command is executed.
+16:03:06 INFO  : Device configured successfully with "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit"
+16:03:07 INFO  : Context for processor 'microblaze_0' is selected.
+16:03:07 INFO  : Hardware design and registers information is loaded from 'C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa'.
+16:03:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:03:07 INFO  : Context for processor 'microblaze_0' is selected.
+16:03:07 INFO  : System reset is completed.
+16:03:10 INFO  : 'after 3000' command is executed.
+16:03:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:03:10 INFO  : The application 'C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf' is downloaded to processor 'microblaze_0'.
+16:03:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}
+fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf
+----------------End of Script----------------
+
+16:03:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:03:10 INFO  : 'con' command is executed.
+16:03:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:03:10 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'
+16:03:38 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:05:16 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:06:24 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:06:32 INFO  : Disconnected from the channel tcfchan#18.
+16:06:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:06:33 INFO  : Jtag cable 'Digilent Basys3 210183A8A8F6A' is selected.
+16:06:33 INFO  : 'jtag frequency' command is executed.
+16:06:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}' command is executed.
+16:06:35 INFO  : Device configured successfully with "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit"
+16:06:35 INFO  : Context for processor 'microblaze_0' is selected.
+16:06:35 INFO  : Hardware design and registers information is loaded from 'C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa'.
+16:06:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:06:35 INFO  : Context for processor 'microblaze_0' is selected.
+16:06:35 INFO  : System reset is completed.
+16:06:38 INFO  : 'after 3000' command is executed.
+16:06:38 INFO  : Context for processor 'microblaze_0' is selected.
+16:06:38 INFO  : The application 'C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf' is downloaded to processor 'microblaze_0'.
+16:06:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}
+fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf
+----------------End of Script----------------
+
+16:06:38 INFO  : Context for processor 'microblaze_0' is selected.
+16:06:38 INFO  : 'con' command is executed.
+16:06:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:06:38 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'
+16:09:07 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:09:12 INFO  : Disconnected from the channel tcfchan#19.
+16:09:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:09:13 INFO  : Jtag cable 'Digilent Basys3 210183A8A8F6A' is selected.
+16:09:13 INFO  : 'jtag frequency' command is executed.
+16:09:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}' command is executed.
+16:09:14 INFO  : Device configured successfully with "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit"
+16:09:14 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:14 INFO  : Hardware design and registers information is loaded from 'C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa'.
+16:09:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:09:14 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:14 INFO  : System reset is completed.
+16:09:17 INFO  : 'after 3000' command is executed.
+16:09:17 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:18 INFO  : The application 'C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf' is downloaded to processor 'microblaze_0'.
+16:09:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}
+fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf
+----------------End of Script----------------
+
+16:09:18 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:18 INFO  : 'con' command is executed.
+16:09:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:09:18 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'
+16:10:04 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:10:11 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:10:14 INFO  : Disconnected from the channel tcfchan#20.
+16:10:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:10:15 INFO  : Jtag cable 'Digilent Basys3 210183A8A8F6A' is selected.
+16:10:15 INFO  : 'jtag frequency' command is executed.
+16:10:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}' command is executed.
+16:10:17 INFO  : Device configured successfully with "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit"
+16:10:17 INFO  : Context for processor 'microblaze_0' is selected.
+16:10:17 INFO  : Hardware design and registers information is loaded from 'C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa'.
+16:10:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:10:17 INFO  : Context for processor 'microblaze_0' is selected.
+16:10:17 INFO  : System reset is completed.
+16:10:20 INFO  : 'after 3000' command is executed.
+16:10:20 INFO  : Context for processor 'microblaze_0' is selected.
+16:10:20 INFO  : The application 'C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf' is downloaded to processor 'microblaze_0'.
+16:10:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}
+fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf
+----------------End of Script----------------
+
+16:10:20 INFO  : Context for processor 'microblaze_0' is selected.
+16:10:20 INFO  : 'con' command is executed.
+16:10:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:10:20 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'
+16:10:54 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:11:01 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:11:07 INFO  : Disconnected from the channel tcfchan#21.
+16:11:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:11:08 INFO  : Jtag cable 'Digilent Basys3 210183A8A8F6A' is selected.
+16:11:08 INFO  : 'jtag frequency' command is executed.
+16:11:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}' command is executed.
+16:11:09 INFO  : Device configured successfully with "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit"
+16:11:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:11:10 INFO  : Hardware design and registers information is loaded from 'C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa'.
+16:11:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:11:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:11:10 INFO  : System reset is completed.
+16:11:13 INFO  : 'after 3000' command is executed.
+16:11:13 INFO  : Context for processor 'microblaze_0' is selected.
+16:11:13 INFO  : The application 'C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf' is downloaded to processor 'microblaze_0'.
+16:11:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}
+fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf
+----------------End of Script----------------
+
+16:11:13 INFO  : Context for processor 'microblaze_0' is selected.
+16:11:13 INFO  : 'con' command is executed.
+16:11:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:11:13 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'
+16:11:27 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:11:45 INFO  : Disconnected from the channel tcfchan#22.
+16:11:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:11:46 INFO  : Jtag cable 'Digilent Basys3 210183A8A8F6A' is selected.
+16:11:46 INFO  : 'jtag frequency' command is executed.
+16:11:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}' command is executed.
+16:11:48 INFO  : Device configured successfully with "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit"
+16:11:48 INFO  : Context for processor 'microblaze_0' is selected.
+16:11:48 INFO  : Hardware design and registers information is loaded from 'C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa'.
+16:11:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:11:48 INFO  : Context for processor 'microblaze_0' is selected.
+16:11:48 INFO  : System reset is completed.
+16:11:51 INFO  : 'after 3000' command is executed.
+16:11:51 INFO  : Context for processor 'microblaze_0' is selected.
+16:11:51 INFO  : The application 'C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf' is downloaded to processor 'microblaze_0'.
+16:11:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}
+fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf
+----------------End of Script----------------
+
+16:11:51 INFO  : Context for processor 'microblaze_0' is selected.
+16:11:51 INFO  : 'con' command is executed.
+16:11:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:11:51 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'
+16:13:59 INFO  : Checking for BSP changes to sync application flags for project 'TP_ublaze_Software_3D'...
+16:14:02 INFO  : Disconnected from the channel tcfchan#23.
+16:14:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:14:03 INFO  : Jtag cable 'Digilent Basys3 210183A8A8F6A' is selected.
+16:14:03 INFO  : 'jtag frequency' command is executed.
+16:14:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}' command is executed.
+16:14:05 INFO  : Device configured successfully with "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit"
+16:14:05 INFO  : Context for processor 'microblaze_0' is selected.
+16:14:05 INFO  : Hardware design and registers information is loaded from 'C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa'.
+16:14:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:14:05 INFO  : Context for processor 'microblaze_0' is selected.
+16:14:05 INFO  : System reset is completed.
+16:14:08 INFO  : 'after 3000' command is executed.
+16:14:08 INFO  : Context for processor 'microblaze_0' is selected.
+16:14:08 INFO  : The application 'C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf' is downloaded to processor 'microblaze_0'.
+16:14:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}
+fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf
+----------------End of Script----------------
+
+16:14:08 INFO  : Context for processor 'microblaze_0' is selected.
+16:14:08 INFO  : 'con' command is executed.
+16:14:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:14:08 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'
+16:14:12 INFO  : Disconnected from the channel tcfchan#24.
+16:14:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:14:13 INFO  : Jtag cable 'Digilent Basys3 210183A8A8F6A' is selected.
+16:14:13 INFO  : 'jtag frequency' command is executed.
+16:14:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}' command is executed.
+16:14:15 INFO  : Device configured successfully with "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit"
+16:14:15 INFO  : Context for processor 'microblaze_0' is selected.
+16:14:15 INFO  : Hardware design and registers information is loaded from 'C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa'.
+16:14:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:14:15 INFO  : Context for processor 'microblaze_0' is selected.
+16:14:15 INFO  : System reset is completed.
+16:14:18 INFO  : 'after 3000' command is executed.
+16:14:18 INFO  : Context for processor 'microblaze_0' is selected.
+16:14:18 INFO  : The application 'C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf' is downloaded to processor 'microblaze_0'.
+16:14:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}
+fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf
+----------------End of Script----------------
+
+16:14:18 INFO  : Context for processor 'microblaze_0' is selected.
+16:14:18 INFO  : 'con' command is executed.
+16:14:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:14:18 INFO  : Launch script is exported to file 'C:\Workspace\TP_SOC_IP\TP_ublaze_Software_3D_system\_ide\scripts\debugger_tp_ublaze_software_3d-default.tcl'

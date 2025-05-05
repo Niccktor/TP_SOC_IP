@@ -10531,3 +10531,1855 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-41: Launc
 
 !ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 15:55:07.183
 !MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '15'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:02:51.323
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-25: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:02:51.330
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-25: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:02:51.330
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-25: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:02:51.334
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-25: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:02:51.336
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:02:51.336
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-25: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:02:51.336
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-25: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2025-05-05 16:02:51.672
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:01.226
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:01.226
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:01.226
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:01.247
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:03:01.247
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:01.247
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:01.247
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:03:02.601
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '21'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:04.489
+!MESSAGE XSCT Command: [disconnect tcfchan#17], Thread: Thread-1808
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:04.495
+!MESSAGE XSCT command with result: [disconnect tcfchan#17], Result: [null, ]. Thread: Thread-1808
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.496
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.497
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#18]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.497
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.512
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.512
+!MESSAGE XSCT Command: [version -server], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.526
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.526
+!MESSAGE XSCT Command: [version], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.526
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.526
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.534
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.534
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.547
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.547
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.554
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.554
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.567
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.567
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.572
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.572
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.588
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.588
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.592
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.592
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.605
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.605
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.611
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.611
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.626
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.626
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.638
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.638
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.649
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.665
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.669
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.669
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.689
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.690
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.720
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:05.722
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:06.978
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.012
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.028
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.028
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.042
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_11]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.042
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.042
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.049
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.060
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.060
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.070
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:07.070
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.081
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.083
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.098
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.098
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.166
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.217
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.228
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.228
+!MESSAGE XSCT Command: [con], Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:10.238
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-25: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:03:10.238
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '16'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:38.249
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-43: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:38.265
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-43: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:38.265
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-43: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:38.269
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-43: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:03:38.269
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:38.279
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-43: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:03:38.279
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-43: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:03:39.756
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '22'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:05:16.473
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:05:16.483
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:05:16.483
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:05:16.493
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:05:16.493
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:05:16.505
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:05:16.505
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:05:17.845
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '23'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:24.674
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:24.686
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:24.686
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:24.694
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:06:24.694
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:24.694
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:24.698
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:06:25.284
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '24'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:32.667
+!MESSAGE XSCT Command: [disconnect tcfchan#18], Thread: Thread-1889
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:32.670
+!MESSAGE XSCT command with result: [disconnect tcfchan#18], Result: [null, ]. Thread: Thread-1889
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.672
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.675
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#19]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.675
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.682
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.682
+!MESSAGE XSCT Command: [version -server], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.682
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.691
+!MESSAGE XSCT Command: [version], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.692
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.692
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.697
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.697
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.702
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.702
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.715
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.715
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.723
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.723
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.733
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.736
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.743
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.743
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.755
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.755
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.766
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.766
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.772
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.774
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.784
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.784
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.803
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.803
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.805
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.819
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.825
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.825
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.839
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.839
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.866
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:33.866
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.124
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.147
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.167
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.167
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.184
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_11]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.185
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.187
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.187
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.201
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.201
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.206
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:35.206
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.211
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.212
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.227
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.227
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.306
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.348
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.368
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.368
+!MESSAGE XSCT Command: [con], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:06:38.378
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:06:38.378
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '17'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:07.001
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-51: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:07.008
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-51: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:07.008
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-51: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:07.013
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-51: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:09:07.014
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:07.015
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-51: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:07.018
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-51: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:09:08.392
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '25'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:12.343
+!MESSAGE XSCT Command: [disconnect tcfchan#19], Thread: Thread-1948
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:12.346
+!MESSAGE XSCT command with result: [disconnect tcfchan#19], Result: [null, ]. Thread: Thread-1948
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.345
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.351
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#20]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.352
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.361
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.362
+!MESSAGE XSCT Command: [version -server], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.364
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.364
+!MESSAGE XSCT Command: [version], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.365
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.366
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.372
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.372
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.385
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.386
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.392
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.392
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.404
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.404
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.410
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.412
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.423
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.424
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.429
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.430
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.442
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.443
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.448
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.448
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.463
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.463
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.478
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.479
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.480
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.497
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.502
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.502
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.515
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.516
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.557
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:13.557
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.824
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.846
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.863
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.864
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.871
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_11]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.871
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.878
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.878
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.891
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.892
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.897
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:14.898
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:17.916
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:17.917
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:17.932
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:17.932
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:18.007
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:18.060
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:18.074
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:18.075
+!MESSAGE XSCT Command: [con], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:09:18.083
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:09:18.084
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '18'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:04.061
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:04.077
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:04.078
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:04.086
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:10:04.086
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:04.087
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:04.092
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:10:05.542
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '26'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:11.678
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:11.683
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:11.684
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:11.687
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:10:11.688
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:11.689
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:11.692
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:10:12.299
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '27'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:14.823
+!MESSAGE XSCT Command: [disconnect tcfchan#20], Thread: Thread-2020
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:14.845
+!MESSAGE XSCT command with result: [disconnect tcfchan#20], Result: [null, ]. Thread: Thread-2020
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.844
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.849
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#21]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.850
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.858
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.859
+!MESSAGE XSCT Command: [version -server], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.860
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.860
+!MESSAGE XSCT Command: [version], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.861
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.862
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.868
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.868
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.880
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.881
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.886
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.888
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.899
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.900
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.904
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.905
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.917
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.918
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.923
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.924
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.935
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.936
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.943
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.943
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.955
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.955
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.968
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.968
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.970
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.982
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.987
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:15.988
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:16.002
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:16.002
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:16.028
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:16.029
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.300
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.325
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.341
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.342
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.365
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_11]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.365
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.368
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.369
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.384
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.384
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.390
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:17.391
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.401
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.402
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.416
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.417
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.479
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.521
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.539
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.539
+!MESSAGE XSCT Command: [con], Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:20.552
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-47: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:10:20.553
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '19'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:54.593
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:54.597
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:54.598
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:54.604
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:10:54.605
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:54.605
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:10:54.608
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:10:56.091
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '28'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:01.283
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:01.322
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:01.323
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:01.333
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:11:01.333
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:01.335
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:01.339
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:11:02.978
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '29'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:07.511
+!MESSAGE XSCT Command: [disconnect tcfchan#21], Thread: Thread-2088
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:07.531
+!MESSAGE XSCT command with result: [disconnect tcfchan#21], Result: [null, ]. Thread: Thread-2088
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.544
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.548
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#22]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.549
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.557
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.557
+!MESSAGE XSCT Command: [version -server], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.559
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.560
+!MESSAGE XSCT Command: [version], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.561
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.562
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.566
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.567
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.579
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.580
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.585
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.585
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.598
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.598
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.603
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.603
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.616
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.616
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.621
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.623
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.635
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.635
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.640
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.642
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.653
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.654
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.666
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.667
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.670
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.683
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.688
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.688
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.701
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.702
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.731
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:08.732
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:09.994
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.016
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.033
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.034
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.043
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_11]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.044
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.061
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.062
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.077
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.078
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.083
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:10.083
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.096
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.097
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.113
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.114
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.188
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.224
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.238
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.239
+!MESSAGE XSCT Command: [con], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:13.254
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:11:13.255
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '20'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:27.543
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:27.549
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:27.549
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:27.554
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:11:27.555
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:27.555
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:27.560
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:11:29.055
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '30'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:45.650
+!MESSAGE XSCT Command: [disconnect tcfchan#22], Thread: Thread-2140
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:45.655
+!MESSAGE XSCT command with result: [disconnect tcfchan#22], Result: [null, ]. Thread: Thread-2140
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.666
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.671
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#23]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.671
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.679
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.680
+!MESSAGE XSCT Command: [version -server], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.683
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.683
+!MESSAGE XSCT Command: [version], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.684
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.685
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.688
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.689
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.702
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.703
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.709
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.710
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.722
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.723
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.730
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.731
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.744
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.745
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.752
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.752
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.766
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.766
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.773
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.773
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.786
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.786
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.801
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.801
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.803
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.817
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.821
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.822
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.835
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.835
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.864
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:46.864
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.130
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.148
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.164
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.164
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.171
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_11]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.172
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.175
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.175
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.188
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.188
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.197
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:48.197
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.211
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.212
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.228
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.229
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.292
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.354
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.367
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.367
+!MESSAGE XSCT Command: [con], Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:11:51.376
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-49: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:11:51.378
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '21'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:13:59.789
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:13:59.793
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:13:59.793
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:13:59.800
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:13:59.802
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:13:59.802
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:13:59.806
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-49: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:14:01.215
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '31'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:02.529
+!MESSAGE XSCT Command: [disconnect tcfchan#23], Thread: Thread-2198
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:02.534
+!MESSAGE XSCT command with result: [disconnect tcfchan#23], Result: [null, ]. Thread: Thread-2198
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.531
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.531
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#24]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.531
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.543
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.543
+!MESSAGE XSCT Command: [version -server], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.543
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.543
+!MESSAGE XSCT Command: [version], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.543
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.543
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.553
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.553
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.563
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.563
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.573
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.573
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.582
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.582
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.594
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.594
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.609
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.609
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.613
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.613
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.623
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.623
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.636
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.636
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.650
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.650
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.664
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.664
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.669
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.681
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.690
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.690
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.694
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.704
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.739
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:03.739
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.009
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.033
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.060
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.060
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.069
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_11]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.071
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.071
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.071
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.087
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.087
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.097
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:05.099
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.111
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.111
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.139
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.139
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.214
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.277
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.292
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.292
+!MESSAGE XSCT Command: [con], Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:08.308
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-54: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:14:08.309
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '22'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:12.753
+!MESSAGE XSCT Command: [disconnect tcfchan#24], Thread: Thread-2238
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:12.759
+!MESSAGE XSCT command with result: [disconnect tcfchan#24], Result: [null, ]. Thread: Thread-2238
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.770
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.777
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#25]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.777
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.792
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.793
+!MESSAGE XSCT Command: [version -server], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.797
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.797
+!MESSAGE XSCT Command: [version], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.800
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.801
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.807
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.808
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.827
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.828
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.836
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.838
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.855
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.856
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.862
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.863
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.877
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.878
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.878
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.878
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.897
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.898
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.903
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.904
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.917
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.918
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.931
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.932
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.933
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.949
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.956
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.956
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.970
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:13.971
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:14.000
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:14.001
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.281
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.325
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.352
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.354
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.367
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_11]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.367
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.371
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.373
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.389
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.390
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.397
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:15.398
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.411
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.413
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.431
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.431
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.502
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.581
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.596
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.597
+!MESSAGE XSCT Command: [con], Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:14:18.605
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-50: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:14:18.606
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '23'
