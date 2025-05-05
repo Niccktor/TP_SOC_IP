@@ -238,32 +238,81 @@ void ledChenillardTimer(void)
 	XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, led_state);
 }
 
+void refresh7seg(void)
+{
+	while (1)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			XGpio_DiscreteWrite(&Gpio7seg, DISP7SEG_CHANNEL, digit_segments[j]);
+			XGpio_DiscreteWrite(&Gpio7seg, AN7SEG_CHANNEL, anodes[j]);
+			usleep(REFRESH_DELAY_US);
+		}
+	}
+}
+
+void seg7NextChar(void)
+{
+	const u8 tab[18]= {
+			0xFF, //
+			0xFF, //
+			0xFF, //
+			0xFF, //
+			0x89, // H
+			0x86, // E
+			0xC7, // L
+			0xC7, // L
+			0xC0, // O
+			0xFF, //
+			0xA4, // 2
+			0xC0, // 0
+			0xA4, // 2
+			0x92, // 5
+			0xFF, //
+			0xFF, //
+			0xFF, //
+			0xFF //
+	};
+	static int i = 0;
+	if (i >= 14)
+		i = 0;
+	digit_segments[3] = tab[i];
+	digit_segments[2] = tab[i + 1];
+	digit_segments[1] = tab[i + 2];
+	digit_segments[0] = tab[i + 3];
+	i++;
+}
+
 #define TMR_DEVICE_ID      XPAR_TMRCTR_0_DEVICE_ID
 #define INTC_DEVICE_ID     XPAR_INTC_0_DEVICE_ID
 #define IRQ_VECTOR_ID      XPAR_INTC_0_TMRCTR_0_VEC_ID
-#define IRQ_VECTOR_ID2     XPAR_INTC_0_TMRCTR_1_VEC_ID
 
 static XTmrCtr TimerInst;
 static XIntc   IntcInst;
 
 void TimerHandler(void *CallBackRef, u8 TmrCtrNumber) {
-	// On reset l’interruption
-	XTmrCtr_Reset(&TimerInst, TmrCtrNumber);
-	ledChenillardTimer();
+    // Reset de l’interruption du canal actif
+    XTmrCtr_Reset(&TimerInst, TmrCtrNumber);
+    ledChenillardTimer();      // votre code pour le canal 0
+    seg7NextChar();
 }
 
 void Timer_init(void)
 {
 	XTmrCtr_Initialize(&TimerInst, TMR_DEVICE_ID);
 	XTmrCtr_SetHandler(&TimerInst, TimerHandler, &TimerInst);
+
 	XTmrCtr_SetOptions(&TimerInst, 0, XTC_DOWN_COUNT_OPTION | XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
 	XTmrCtr_SetResetValue(&TimerInst, 0, 12500000);
 
 
 	XIntc_Initialize(&IntcInst, INTC_DEVICE_ID);
+
 	XIntc_Connect(&IntcInst, IRQ_VECTOR_ID, (XInterruptHandler)XTmrCtr_InterruptHandler, &TimerInst);
-	XIntc_Start(&IntcInst, XIN_REAL_MODE);
+
 	XIntc_Enable(&IntcInst, IRQ_VECTOR_ID);
+
+	XIntc_Start(&IntcInst, XIN_REAL_MODE);
 
 	Xil_ExceptionInit();
 	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler,&IntcInst);
@@ -272,7 +321,7 @@ void Timer_init(void)
 	XTmrCtr_Start(&TimerInst, 0);
 }
 
-void GPIO_Init(void)
+int GPIO_Init(void)
 {
 	int status;
 
@@ -290,6 +339,7 @@ void GPIO_Init(void)
 	}
 	XGpio_SetDataDirection(&Gpio7seg, AN7SEG_CHANNEL, 0x0000);     // 16 bits en sortie
 	XGpio_SetDataDirection(&Gpio7seg, DISP7SEG_CHANNEL, 0x0000);  // 16 bits en entrée
+	return (0);
 }
 
 
@@ -302,7 +352,7 @@ int main()
 	Timer_init();
 
 
-	hello2seg();
+	refresh7seg();
 	/*test7seg();
 	test_led();
 	switch2leds();

@@ -1,31 +1,8 @@
-14:57:31 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
+15:54:56 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-In file included from C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include/xgpio.h:116,
-                 from ../src/helloworld.c:51:
-../src/helloworld.c: In function 'GPIO_Init':
-C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include/xstatus.h:43:41: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   43 | #define XST_FAILURE                     1L
-      |                                         ^~
-../src/helloworld.c:279:24: note: in expansion of macro 'XST_FAILURE'
-  279 |                 return XST_FAILURE;
-      |                        ^~~~~~~~~~~
-../src/helloworld.c:272:6: note: declared here
-  272 | void GPIO_Init(void)
-      |      ^~~~~~~~~
-In file included from C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include/xgpio.h:116,
-                 from ../src/helloworld.c:51:
-C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include/xstatus.h:43:41: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   43 | #define XST_FAILURE                     1L
-      |                                         ^~
-../src/helloworld.c:286:24: note: in expansion of macro 'XST_FAILURE'
-  286 |                 return XST_FAILURE;
-      |                        ^~~~~~~~~~~
-../src/helloworld.c:272:6: note: declared here
-  272 | void GPIO_Init(void)
-      |      ^~~~~~~~~
 'Finished building: ../src/helloworld.c'
 ' '
 'Building target: TP_ublaze_Software_3D.elf'
@@ -36,9 +13,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Workspace/TP_SOC_IP/ublaze_system_wrapp
 'Invoking: MicroBlaze Print Size'
 mb-size TP_ublaze_Software_3D.elf  |tee "TP_ublaze_Software_3D.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   8964	    396	   3352	  12712	   31a8	TP_ublaze_Software_3D.elf
+   8996	    396	   3360	  12752	   31d0	TP_ublaze_Software_3D.elf
 'Finished building: TP_ublaze_Software_3D.elf.size'
 ' '
 
-14:57:32 Build Finished (took 880ms)
+15:54:57 Build Finished (took 1s.54ms)
 
