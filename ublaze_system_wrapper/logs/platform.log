@@ -1,0 +1,1048 @@
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-04-28.16:41:10::SCWPlatform::Opened new HwDB with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-04-28.16:41:10::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper"
+		}]
+}
+TRACE::2025-04-28.16:41:10::SCWPlatform::Boot application domains not present, creating them
+TRACE::2025-04-28.16:41:10::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2025-04-28.16:41:10::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper"
+		}]
+}
+TRACE::2025-04-28.16:41:10::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper"
+		}]
+}
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:10::SCWDomain::checking for install qemu data   : 
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:10::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:10::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:10::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-04-28.16:41:10::SCWMssOS::No sw design opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:10::SCWMssOS::mss does not exists at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:10::SCWMssOS::Creating sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:10::SCWMssOS::Adding the swdes entry, created swdb C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:10::SCWMssOS::updating the scw layer changes to swdes at   C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:10::SCWMssOS::Writing mss at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:10::SCWMssOS::Completed writing the mss file at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-04-28.16:41:10::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-04-28.16:41:10::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-04-28.16:41:10::SCWMssOS::Completed writing the mss file at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-04-28.16:41:10::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Saving the mss changes C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-04-28.16:41:12::SCWMssOS::Writing the mss file completed C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Commit changes completed.
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5ac3cece6f1b10c74bab2f8068694cea",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-04-28.16:41:12::SCWPlatform::Started generating the artifacts platform ublaze_system_wrapper
+TRACE::2025-04-28.16:41:12::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-04-28.16:41:12::SCWPlatform::Started generating the artifacts for system configuration ublaze_system_wrapper
+LOG::2025-04-28.16:41:12::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-04-28.16:41:12::SCWSystem::Not a boot domain 
+LOG::2025-04-28.16:41:12::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-04-28.16:41:12::SCWDomain::Generating domain artifcats
+TRACE::2025-04-28.16:41:12::SCWMssOS::Generating standalone artifcats
+TRACE::2025-04-28.16:41:12::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Completed writing the mss file at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-04-28.16:41:12::SCWMssOS::Mss edits present, copying mssfile into export location C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-04-28.16:41:12::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-04-28.16:41:12::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2025-04-28.16:41:12::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-04-28.16:41:12::SCWMssOS::Copying to export directory.
+TRACE::2025-04-28.16:41:12::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-04-28.16:41:12::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-04-28.16:41:12::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-04-28.16:41:12::SCWSystem::Completed Processing the sysconfig ublaze_system_wrapper
+LOG::2025-04-28.16:41:12::SCWPlatform::Completed generating the artifacts for system configuration ublaze_system_wrapper
+TRACE::2025-04-28.16:41:12::SCWPlatform::Started preparing the platform 
+TRACE::2025-04-28.16:41:12::SCWSystem::Writing the bif file for system config ublaze_system_wrapper
+TRACE::2025-04-28.16:41:12::SCWSystem::dir created 
+TRACE::2025-04-28.16:41:12::SCWSystem::Writing the bif 
+TRACE::2025-04-28.16:41:12::SCWPlatform::Started writing the spfm file 
+TRACE::2025-04-28.16:41:12::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-04-28.16:41:12::SCWPlatform::Completed generating the platform
+TRACE::2025-04-28.16:41:12::SCWMssOS::Saving the mss changes C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Commit changes completed.
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5ac3cece6f1b10c74bab2f8068694cea",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-04-28.16:41:12::SCWPlatform::updated the xpfm file.
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Saving the mss changes C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Commit changes completed.
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5ac3cece6f1b10c74bab2f8068694cea",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Saving the mss changes C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Commit changes completed.
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5ac3cece6f1b10c74bab2f8068694cea",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-04-28.16:41:12::SCWPlatform::Started generating the artifacts platform ublaze_system_wrapper
+TRACE::2025-04-28.16:41:12::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-04-28.16:41:12::SCWPlatform::Started generating the artifacts for system configuration ublaze_system_wrapper
+LOG::2025-04-28.16:41:12::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-04-28.16:41:12::SCWDomain::Generating domain artifcats
+TRACE::2025-04-28.16:41:12::SCWMssOS::Generating standalone artifcats
+TRACE::2025-04-28.16:41:12::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Completed writing the mss file at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-04-28.16:41:12::SCWMssOS::Mss edits present, copying mssfile into export location C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-04-28.16:41:12::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-04-28.16:41:12::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-04-28.16:41:12::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-04-28.16:41:12::SCWMssOS::Copying to export directory.
+TRACE::2025-04-28.16:41:12::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-04-28.16:41:12::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-04-28.16:41:12::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-04-28.16:41:12::SCWSystem::Completed Processing the sysconfig ublaze_system_wrapper
+LOG::2025-04-28.16:41:12::SCWPlatform::Completed generating the artifacts for system configuration ublaze_system_wrapper
+TRACE::2025-04-28.16:41:12::SCWPlatform::Started preparing the platform 
+TRACE::2025-04-28.16:41:12::SCWSystem::Writing the bif file for system config ublaze_system_wrapper
+TRACE::2025-04-28.16:41:12::SCWSystem::dir created 
+TRACE::2025-04-28.16:41:12::SCWSystem::Writing the bif 
+TRACE::2025-04-28.16:41:12::SCWPlatform::Started writing the spfm file 
+TRACE::2025-04-28.16:41:12::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-04-28.16:41:12::SCWPlatform::Completed generating the platform
+TRACE::2025-04-28.16:41:12::SCWMssOS::Saving the mss changes C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-04-28.16:41:12::SCWMssOS::Commit changes completed.
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:12::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:12::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:12::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5ac3cece6f1b10c74bab2f8068694cea",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-04-28.16:41:12::SCWPlatform::updated the xpfm file.
+LOG::2025-04-28.16:41:20::SCWPlatform::Started generating the artifacts platform ublaze_system_wrapper
+TRACE::2025-04-28.16:41:20::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-04-28.16:41:20::SCWPlatform::Started generating the artifacts for system configuration ublaze_system_wrapper
+LOG::2025-04-28.16:41:20::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-04-28.16:41:20::SCWSystem::Not a boot domain 
+LOG::2025-04-28.16:41:20::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-04-28.16:41:20::SCWDomain::Generating domain artifcats
+TRACE::2025-04-28.16:41:20::SCWMssOS::Generating standalone artifcats
+TRACE::2025-04-28.16:41:20::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-04-28.16:41:20::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:20::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:20::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:20::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:20::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:20::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:20::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:20::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:20::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:20::SCWMssOS::Completed writing the mss file at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-04-28.16:41:20::SCWMssOS::Mss edits present, copying mssfile into export location C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:20::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-04-28.16:41:20::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-04-28.16:41:20::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-04-28.16:41:20::SCWMssOS::doing bsp build ... 
+TRACE::2025-04-28.16:41:20::SCWMssOS::System Command Ran  C: & cd  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-04-28.16:41:20::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-04-28.16:41:20::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-04-28.16:41:20::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-04-28.16:41:20::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-04-28.16:41:20::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2025-04-28.16:41:20::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-04-28.16:41:20::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-04-28.16:41:20::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-04-28.16:41:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2025-04-28.16:41:21::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-04-28.16:41:21::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2025-04-28.16:41:21::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2025-04-28.16:41:21::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2025-04-28.16:41:21::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-04-28.16:41:21::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2025-04-28.16:41:21::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-04-28.16:41:21::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-04-28.16:41:21::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-04-28.16:41:21::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-04-28.16:41:21::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-04-28.16:41:21::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-04-28.16:41:21::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2025-04-28.16:41:21::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2025-04-28.16:41:21::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-04-28.16:41:21::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2025-04-28.16:41:21::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-04-28.16:41:21::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2025-04-28.16:41:21::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2025-04-28.16:41:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-04-28.16:41:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2025-04-28.16:41:21::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-04-28.16:41:22::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2025-04-28.16:41:22::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-04-28.16:41:22::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-04-28.16:41:22::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2025-04-28.16:41:22::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2025-04-28.16:41:22::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2025-04-28.16:41:22::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2025-04-28.16:41:22::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2025-04-28.16:41:22::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2025-04-28.16:41:22::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2025-04-28.16:41:22::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2025-04-28.16:41:22::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2025-04-28.16:41:22::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2025-04-28.16:41:22::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2025-04-28.16:41:22::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2025-04-28.16:41:22::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2025-04-28.16:41:22::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2025-04-28.16:41:22::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2025-04-28.16:41:22::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2025-04-28.16:41:22::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2025-04-28.16:41:22::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2025-04-28.16:41:22::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2025-04-28.16:41:22::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2025-04-28.16:41:22::SCWMssOS::e_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xt
+TRACE::2025-04-28.16:41:22::SCWMssOS::mrctr_options.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaz
+TRACE::2025-04-28.16:41:22::SCWMssOS::e_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_
+TRACE::2025-04-28.16:41:22::SCWMssOS::0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2025-04-28.16:41:23::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-04-28.16:41:23::SCWMssOS::Copying to export directory.
+TRACE::2025-04-28.16:41:23::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-04-28.16:41:23::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-04-28.16:41:23::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-04-28.16:41:23::SCWSystem::Completed Processing the sysconfig ublaze_system_wrapper
+LOG::2025-04-28.16:41:23::SCWPlatform::Completed generating the artifacts for system configuration ublaze_system_wrapper
+TRACE::2025-04-28.16:41:23::SCWPlatform::Started preparing the platform 
+TRACE::2025-04-28.16:41:23::SCWSystem::Writing the bif file for system config ublaze_system_wrapper
+TRACE::2025-04-28.16:41:23::SCWSystem::dir created 
+TRACE::2025-04-28.16:41:23::SCWSystem::Writing the bif 
+TRACE::2025-04-28.16:41:23::SCWPlatform::Started writing the spfm file 
+TRACE::2025-04-28.16:41:23::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-04-28.16:41:23::SCWPlatform::Completed generating the platform
+TRACE::2025-04-28.16:41:23::SCWMssOS::Saving the mss changes C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-04-28.16:41:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-04-28.16:41:23::SCWMssOS::Commit changes completed.
+TRACE::2025-04-28.16:41:23::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:23::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:23::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:23::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:23::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:23::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:23::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:23::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:23::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:23::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:23::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:23::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:23::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:23::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:23::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:23::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:23::SCWWriter::formatted JSON is {
+	"platformName":	"ublaze_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ublaze_system_wrapper",
+	"platHandOff":	"C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ublaze_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ublaze_system_wrapper",
+	"systems":	[{
+			"systemName":	"ublaze_system_wrapper",
+			"systemDesc":	"ublaze_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ublaze_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5ac3cece6f1b10c74bab2f8068694cea",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-04-28.16:41:23::SCWPlatform::updated the xpfm file.
+TRACE::2025-04-28.16:41:24::SCWPlatform::Trying to open the hw design at C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:24::SCWPlatform::DSA given C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:24::SCWPlatform::DSA absoulate path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:24::SCWPlatform::DSA directory C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw
+TRACE::2025-04-28.16:41:24::SCWPlatform:: Platform Path C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa
+TRACE::2025-04-28.16:41:24::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-04-28.16:41:24::SCWPlatform::Trying to set the existing hwdb with name ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:24::SCWPlatform::Opened existing hwdb ublaze_system_wrapper_0
+TRACE::2025-04-28.16:41:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-04-28.16:41:24::SCWMssOS::Checking the sw design at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-04-28.16:41:24::SCWMssOS::DEBUG:  swdes dump  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-04-28.16:41:24::SCWMssOS::Sw design exists and opened at  C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
