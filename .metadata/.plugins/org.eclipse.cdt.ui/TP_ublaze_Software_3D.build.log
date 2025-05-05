@@ -1,9 +1,14 @@
-16:13:59 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
+16:58:10 **** Build of configuration Debug for project TP_ublaze_Software_3D ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
 ' '
 'Building target: TP_ublaze_Software_3D.elf'
 'Invoking: MicroBlaze gcc linker'
@@ -17,5 +22,5 @@ mb-size TP_ublaze_Software_3D.elf  |tee "TP_ublaze_Software_3D.elf.size"
 'Finished building: TP_ublaze_Software_3D.elf.size'
 ' '
 
-16:14:00 Build Finished (took 994ms)
+16:58:12 Build Finished (took 1s.384ms)
 

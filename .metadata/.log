@@ -12383,3 +12383,2266 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-50: Launc
 
 !ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:14:18.606
 !MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '23'
+!SESSION 2025-05-05 16:57:37.269 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-05-05 16:57:42.061
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2025-05-05 16:57:44.957
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-05-05 16:57:48.426
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-05-05 16:57:48.426
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-05-05 16:57:48.427
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:50.863
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:50.863
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-25
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:50.873
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:50.873
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-25
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:50.873
+!MESSAGE XSCT Command: [setws C:/Workspace/TP_SOC_IP], Thread: Thread-25
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:50.882
+!MESSAGE XSCT command with result: [setws C:/Workspace/TP_SOC_IP], Result: [null, ]. Thread: Thread-25
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:50.925
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-8: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:51.470
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-8: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:51.470
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-8: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:57:51.472
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2022.2/data]. Thread: Worker-8: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:10.407
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:10.565
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:10.578
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:10.582
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:10.585
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:10.587
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:58:10.587
+!MESSAGE Generating MD5 hash for file: C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper\sw\ublaze_system_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:10.587
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:10.595
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:12.515
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:12.522
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 16:58:12.738
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '1'
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-05 16:58:39.846
+!MESSAGE Error: Not ELF format
+!STACK 0
+java.io.IOException: Not ELF format
+	at org.eclipse.cdt.utils.elf.Elf$ELFhdr.<init>(Elf.java:188)
+	at org.eclipse.cdt.utils.elf.Elf.commonSetup(Elf.java:666)
+	at org.eclipse.cdt.utils.elf.Elf.<init>(Elf.java:684)
+	at org.eclipse.cdt.utils.elf.Elf.getAttributes(Elf.java:929)
+	at org.eclipse.cdt.utils.elf.parser.ElfParser.getBinary(ElfParser.java:60)
+	at org.eclipse.cdt.utils.elf.parser.ElfParser.getBinary(ElfParser.java:34)
+	at org.eclipse.cdt.launch.LaunchUtils.getBinary(LaunchUtils.java:110)
+	at org.eclipse.tcf.internal.cdt.ui.TCFLaunchContext.isBinary(TCFLaunchContext.java:278)
+	at org.eclipse.tcf.internal.debug.ui.launch.TCFPropertyTester.testIsExecutable(TCFPropertyTester.java:52)
+	at org.eclipse.tcf.internal.debug.ui.launch.TCFPropertyTester.test(TCFPropertyTester.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:165)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:58)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:280)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:458)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:167)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:101)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:423)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-05 16:58:39.846
+!MESSAGE Error: Not ELF format
+!STACK 0
+java.io.IOException: Not ELF format
+	at org.eclipse.cdt.utils.elf.Elf$ELFhdr.<init>(Elf.java:188)
+	at org.eclipse.cdt.utils.elf.Elf.commonSetup(Elf.java:666)
+	at org.eclipse.cdt.utils.elf.Elf.<init>(Elf.java:684)
+	at org.eclipse.cdt.utils.elf.Elf.getAttributes(Elf.java:929)
+	at org.eclipse.cdt.utils.elf.parser.ElfParser.getBinary(ElfParser.java:60)
+	at org.eclipse.cdt.utils.elf.parser.ElfParser.getBinary(ElfParser.java:34)
+	at org.eclipse.cdt.launch.LaunchUtils.getBinary(LaunchUtils.java:120)
+	at org.eclipse.tcf.internal.cdt.ui.TCFLaunchContext.isBinary(TCFLaunchContext.java:278)
+	at org.eclipse.tcf.internal.debug.ui.launch.TCFPropertyTester.testIsExecutable(TCFPropertyTester.java:52)
+	at org.eclipse.tcf.internal.debug.ui.launch.TCFPropertyTester.test(TCFPropertyTester.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:165)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:58)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:280)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:458)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:167)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:101)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:423)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:39.887
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:39.889
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Mon May  5 14:34:27 2025",
+"vivado_version": "2022.2",
+"part": "xc7a35tcpg236-1",
+}]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:39.957
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:39.961
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Result: [null, {}]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:39.963
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:39.988
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741824,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741828,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741832,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741836,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742108,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742120,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742112,
+},
+},
+"axi_gpio_1": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807360,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807364,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807368,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807372,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807644,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807656,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807648,
+},
+},
+"axi_gpio_2": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872896,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872900,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872904,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872908,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873180,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873192,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873184,
+},
+},
+"axi_timer_0": {"TCSR0": {"description": "Timer 0 Control and Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Mode
+0 - Timer mode is generate
+1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT0": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 0
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT0": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 0
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT0": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 0
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT0": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 0.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.      0 = Hold counter or capture value. The TLR must be read before providing the external capture.      1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD0": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 0      0 = No load      1 = Loads timer with value in TLR0 Setting this bit loads timer/counter register (TCR0) with a specified value in the timer/counter load register (TLR0).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT0) bit in TCSR0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT0": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 0
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T0INT) in TCSR0.      0 - Disable interrupt signal   1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT0": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 0
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T0INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT   1 - Clear T0INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA0": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 0      0 - Disable pulse width modulation      1 - Enable pulse width modulation PWM requires using Timer 0 and Timer 1 together as a pair.  Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0 and C_GEN0_ASSERT and C_GEN1_ASSERT must be 1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run) This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. 
+Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CASC": {"access": "read-write",
+"bit_offset": "11",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable cascade mode of timers      0 - Disable cascaded operation      1 - Enable cascaded operation Cascaded operation requires using Timer 0 and Timer 1 together as a pair.  The counting event for the Timer 1 is when the Timer 0 rolls over from all 1s to all 0s or vice-versa when counting down.
+TLR0 and TLR1 are used for lower 32-bit and higher 32-bit respectively. Similarly, TCR0 contains lower 32-bits for the 64-bit counter and TCR1 contains the higher 32-bits.
+Only TCSR0 is valid for both the timer/counters in this mode.
+This CASC bit must be set before enabling the timer/counter.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101952,
+},
+"TLR0": {"description": "Timer 0 Load Register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101956,
+},
+"TCR0": {"description": "Timer 0 Counter Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR0": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101960,
+},
+"TCSR1": {"description": "Timer 1 Control and Status Register",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Mode
+  0 - Timer mode is generate
+  1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT1": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 1
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT1": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 1
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT1": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 1
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT1": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 1.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.
+0 = Hold counter or capture value. The TLR must be read before providing the external capture.   
+1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD1": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 1      0 = No load      1 = Loads timer with value in TLR1 Setting this bit loads timer/counter register (TCR1) with a specified value in the timer/counter load register (TLR1).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT1) bit in TCSR1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT1": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 1
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T1INT) in TCSR1.      0 - Disable interrupt signal      1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT1": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 1
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T1INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT      1 - Clear T1INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA1": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 1      0 - Disable pulse width modulation      1 - Enable pulse width modulation  PWM requires using Timer 0 and Timer 1 together as a pair. Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run)  This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101968,
+},
+"TLR1": {"description": "Timer 1 Load Register",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101972,
+},
+"TCR1": {"description": "Timer 1 Counter Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR1": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101976,
+},
+},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616208,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616212,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616216,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616220,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616224,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616448,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:39.994
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.000
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x40010000",
+"high": "0x4001FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0001FFFF",
+"size": "131072",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.002
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_DEBUG_ENABLED], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.004
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.005
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.009
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.009
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.019
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.019
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.024
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.024
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_FREQ], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.028
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.029
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.040
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.040
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.046
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.050
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa mdm_1], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.052
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa mdm_1], Result: [null, {}]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.054
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa mdm_1], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.056
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.060
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa mdm_1], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.065
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:40.067
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY org.eclipse.tcf 4 0 2025-05-05 16:58:42.181
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.240
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.240
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.571
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183A8A8F6A]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.573
+!MESSAGE XSCT Command: [version -server], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.577
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.578
+!MESSAGE XSCT Command: [version], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.578
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.583
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.587
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183A8A8F6A]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.589
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.603
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.608
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.615
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183A8A8F6A]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.615
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.627
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.627
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.632
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183A8A8F6A]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.632
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.648
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.648
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.653
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183A8A8F6A]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.653
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.658
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.669
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.675
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183A8A8F6A]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.677
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.689
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.689
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.705
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.705
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.719
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.719
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0], Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.723
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-8: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.750
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.754
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.754
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.772
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.784
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.786
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.786
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.790
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.790
+!MESSAGE XSCT Command: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.790
+!MESSAGE XSCT command with result: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.790
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.802
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.802
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.817
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.817
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 2], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.820
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 2], Result: [null, jsn-Basys3-210183A8A8F6A-0362d093-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.820
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.850
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.850
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 16:58:42.857
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [{Format=couldn't open "C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit": no such file or directory, Time=1746457122857, Code=1}, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.018
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.018
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.018
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.027
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.027
+!MESSAGE XSCT Command: [version -server], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.027
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.033
+!MESSAGE XSCT Command: [version], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.033
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.033
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.040
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.040
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.051
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.051
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.060
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.060
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.068
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.068
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.078
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.078
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.089
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.089
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.097
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.099
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.111
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.111
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.111
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.111
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.123
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.129
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.141
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183A8A8F6A" && level == 0}], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.141
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.141
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.160
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.166
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183A8A8F6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.166
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.176
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.180
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.200
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A8A8F6A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183A8A8F6A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:19.200
+!MESSAGE XSCT Command: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.465
+!MESSAGE XSCT command with result: [fpga -file C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.500
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.516
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.516
+!MESSAGE XSCT Command: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.548
+!MESSAGE XSCT command with result: [loadhw -hw C:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/hw/ublaze_system_wrapper.xsa -regs], Result: [null, ublaze_system_wrapper_0]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.548
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.548
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.548
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.568
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.568
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.572
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:20.576
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.581
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.582
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.604
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.604
+!MESSAGE XSCT Command: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.674
+!MESSAGE XSCT command with result: [dow C:/Workspace/TP_SOC_IP/TP_ublaze_Software_3D/Debug/TP_ublaze_Software_3D.elf], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.746
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.768
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.768
+!MESSAGE XSCT Command: [con], Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-05 17:00:23.776
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-9: Launching Debugger_TP_ublaze_Software_3D-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-05 17:00:23.780
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'

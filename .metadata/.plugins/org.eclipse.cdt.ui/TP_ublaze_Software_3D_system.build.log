@@ -1,6 +1,6 @@
-16:14:01 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D_system ****
+16:58:12 **** Build of configuration Debug for project TP_ublaze_Software_3D_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-16:14:01 Build Finished (took 158ms)
+16:58:12 Build Finished (took 186ms)
 

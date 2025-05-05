@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Mon May  5 14:34:32 2025
-# Process ID: 24524
+# Start of session at: Mon May  5 16:57:31 2025
+# Process ID: 22872
 # Current directory: C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1
 # Command line: vivado.exe -log ublaze_system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ublaze_system_wrapper.tcl
 # Log file: C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/ublaze_system_wrapper.vds
@@ -11,7 +11,6 @@
 # Running On: DESKTOP-1AMI1JA, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 68388 MB
 #-----------------------------------------------------------
 source ublaze_system_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1001.934 ; gain = 118.457
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
@@ -27,32 +26,32 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 25088
+INFO: [Synth 8-7075] Helper process launched with PID 31372
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1853.633 ; gain = 407.539
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1854.168 ; gain = 410.238
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'ublaze_system_wrapper' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/hdl/ublaze_system_wrapper.vhd:28]
 INFO: [Synth 8-3491] module 'ublaze_system' declared at 'c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2270' bound to instance 'ublaze_system_i' of component 'ublaze_system' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/hdl/ublaze_system_wrapper.vhd:43]
 INFO: [Synth 8-638] synthesizing module 'ublaze_system' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2288]
-INFO: [Synth 8-3491] module 'ublaze_system_axi_gpio_0_1' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_0_1_stub.vhdl:5' bound to instance 'axi_gpio_0' of component 'ublaze_system_axi_gpio_0_1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2743]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_gpio_0_1' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_0_1_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'ublaze_system_axi_gpio_1_1' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_1_1_stub.vhdl:5' bound to instance 'axi_gpio_1' of component 'ublaze_system_axi_gpio_1_1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2767]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_gpio_1_1' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_1_1_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'ublaze_system_axi_gpio_2_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_2_0_stub.vhdl:5' bound to instance 'axi_gpio_2' of component 'ublaze_system_axi_gpio_2_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2791]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_gpio_2_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_2_0_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'ublaze_system_axi_timer_0_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_timer_0_0_stub.vhdl:5' bound to instance 'axi_timer_0' of component 'ublaze_system_axi_timer_0_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2815]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_timer_0_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_timer_0_0_stub.vhdl:37]
-INFO: [Synth 8-3491] module 'ublaze_system_axi_uartlite_0_1' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_uartlite_0_1_stub.vhdl:5' bound to instance 'axi_uartlite_0' of component 'ublaze_system_axi_uartlite_0_1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2844]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_uartlite_0_1' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_uartlite_0_1_stub.vhdl:33]
-INFO: [Synth 8-3491] module 'ublaze_system_clk_wiz_0_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_clk_wiz_0_0_stub.vhdl:5' bound to instance 'clk_wiz_0' of component 'ublaze_system_clk_wiz_0_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2869]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_clk_wiz_0_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_clk_wiz_0_0_stub.vhdl:15]
-INFO: [Synth 8-3491] module 'ublaze_system_mdm_1_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_mdm_1_0_stub.vhdl:5' bound to instance 'mdm_1' of component 'ublaze_system_mdm_1_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2876]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_mdm_1_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_mdm_1_0_stub.vhdl:21]
-INFO: [Synth 8-3491] module 'ublaze_system_microblaze_0_3' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_microblaze_0_3_stub.vhdl:5' bound to instance 'microblaze_0' of component 'ublaze_system_microblaze_0_3' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2889]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_microblaze_0_3' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_microblaze_0_3_stub.vhdl:63]
-INFO: [Synth 8-3491] module 'ublaze_system_microblaze_0_axi_intc_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_microblaze_0_axi_intc_0_stub.vhdl:5' bound to instance 'microblaze_0_axi_intc' of component 'ublaze_system_microblaze_0_axi_intc_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2975]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_microblaze_0_axi_intc_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_microblaze_0_axi_intc_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'ublaze_system_axi_gpio_0_1' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_0_1_stub.vhdl:5' bound to instance 'axi_gpio_0' of component 'ublaze_system_axi_gpio_0_1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2743]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_gpio_0_1' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_0_1_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'ublaze_system_axi_gpio_1_1' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_1_1_stub.vhdl:5' bound to instance 'axi_gpio_1' of component 'ublaze_system_axi_gpio_1_1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2767]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_gpio_1_1' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_1_1_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'ublaze_system_axi_gpio_2_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_2_0_stub.vhdl:5' bound to instance 'axi_gpio_2' of component 'ublaze_system_axi_gpio_2_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2791]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_gpio_2_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_gpio_2_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'ublaze_system_axi_timer_0_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_timer_0_0_stub.vhdl:5' bound to instance 'axi_timer_0' of component 'ublaze_system_axi_timer_0_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2815]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_timer_0_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_timer_0_0_stub.vhdl:37]
+INFO: [Synth 8-3491] module 'ublaze_system_axi_uartlite_0_1' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_uartlite_0_1_stub.vhdl:5' bound to instance 'axi_uartlite_0' of component 'ublaze_system_axi_uartlite_0_1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2844]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_axi_uartlite_0_1' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_axi_uartlite_0_1_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'ublaze_system_clk_wiz_0_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_clk_wiz_0_0_stub.vhdl:5' bound to instance 'clk_wiz_0' of component 'ublaze_system_clk_wiz_0_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2869]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_clk_wiz_0_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_clk_wiz_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'ublaze_system_mdm_1_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_mdm_1_0_stub.vhdl:5' bound to instance 'mdm_1' of component 'ublaze_system_mdm_1_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2876]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_mdm_1_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_mdm_1_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'ublaze_system_microblaze_0_3' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_microblaze_0_3_stub.vhdl:5' bound to instance 'microblaze_0' of component 'ublaze_system_microblaze_0_3' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2889]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_microblaze_0_3' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_microblaze_0_3_stub.vhdl:63]
+INFO: [Synth 8-3491] module 'ublaze_system_microblaze_0_axi_intc_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_microblaze_0_axi_intc_0_stub.vhdl:5' bound to instance 'microblaze_0_axi_intc' of component 'ublaze_system_microblaze_0_axi_intc_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2975]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_microblaze_0_axi_intc_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_microblaze_0_axi_intc_0_stub.vhdl:36]
 INFO: [Synth 8-638] synthesizing module 'ublaze_system_microblaze_0_axi_periph_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:1431]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_WHTEUD' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:57]
 INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_WHTEUD' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:57]
@@ -68,23 +67,23 @@ INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_1U3A6G2' [c:/Workspace
 INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_1U3A6G2' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:562]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_TNCJKQ' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:1225]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_TNCJKQ' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:1225]
-INFO: [Synth 8-3491] module 'ublaze_system_xbar_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'ublaze_system_xbar_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2137]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_xbar_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_xbar_0_stub.vhdl:51]
+INFO: [Synth 8-3491] module 'ublaze_system_xbar_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'ublaze_system_xbar_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2137]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_xbar_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_xbar_0_stub.vhdl:51]
 INFO: [Synth 8-256] done synthesizing module 'ublaze_system_microblaze_0_axi_periph_0' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:1431]
 INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_1AUWEY6' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:646]
-INFO: [Synth 8-3491] module 'ublaze_system_dlmb_bram_if_cntlr_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_dlmb_bram_if_cntlr_0_stub.vhdl:5' bound to instance 'dlmb_bram_if_cntlr' of component 'ublaze_system_dlmb_bram_if_cntlr_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:860]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_dlmb_bram_if_cntlr_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_dlmb_bram_if_cntlr_0_stub.vhdl:31]
-INFO: [Synth 8-3491] module 'ublaze_system_dlmb_v10_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_dlmb_v10_0_stub.vhdl:5' bound to instance 'dlmb_v10' of component 'ublaze_system_dlmb_v10_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:914]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_dlmb_v10_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_dlmb_v10_0_stub.vhdl:36]
-INFO: [Synth 8-3491] module 'ublaze_system_ilmb_bram_if_cntlr_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_ilmb_bram_if_cntlr_0_stub.vhdl:5' bound to instance 'ilmb_bram_if_cntlr' of component 'ublaze_system_ilmb_bram_if_cntlr_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:942]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_ilmb_bram_if_cntlr_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_ilmb_bram_if_cntlr_0_stub.vhdl:31]
-INFO: [Synth 8-3491] module 'ublaze_system_ilmb_v10_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_ilmb_v10_0_stub.vhdl:5' bound to instance 'ilmb_v10' of component 'ublaze_system_ilmb_v10_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:996]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_ilmb_v10_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_ilmb_v10_0_stub.vhdl:36]
-INFO: [Synth 8-3491] module 'ublaze_system_lmb_bram_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_lmb_bram_0_stub.vhdl:5' bound to instance 'lmb_bram' of component 'ublaze_system_lmb_bram_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:1024]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_lmb_bram_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_lmb_bram_0_stub.vhdl:27]
+INFO: [Synth 8-3491] module 'ublaze_system_dlmb_bram_if_cntlr_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_dlmb_bram_if_cntlr_0_stub.vhdl:5' bound to instance 'dlmb_bram_if_cntlr' of component 'ublaze_system_dlmb_bram_if_cntlr_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:860]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_dlmb_bram_if_cntlr_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_dlmb_bram_if_cntlr_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'ublaze_system_dlmb_v10_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_dlmb_v10_0_stub.vhdl:5' bound to instance 'dlmb_v10' of component 'ublaze_system_dlmb_v10_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:914]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_dlmb_v10_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_dlmb_v10_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'ublaze_system_ilmb_bram_if_cntlr_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_ilmb_bram_if_cntlr_0_stub.vhdl:5' bound to instance 'ilmb_bram_if_cntlr' of component 'ublaze_system_ilmb_bram_if_cntlr_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:942]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_ilmb_bram_if_cntlr_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_ilmb_bram_if_cntlr_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'ublaze_system_ilmb_v10_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_ilmb_v10_0_stub.vhdl:5' bound to instance 'ilmb_v10' of component 'ublaze_system_ilmb_v10_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:996]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_ilmb_v10_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_ilmb_v10_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'ublaze_system_lmb_bram_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_lmb_bram_0_stub.vhdl:5' bound to instance 'lmb_bram' of component 'ublaze_system_lmb_bram_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:1024]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_lmb_bram_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_lmb_bram_0_stub.vhdl:27]
 INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_1AUWEY6' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:646]
-INFO: [Synth 8-3491] module 'ublaze_system_rst_clk_wiz_0_100M_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_rst_clk_wiz_0_100M_0_stub.vhdl:5' bound to instance 'rst_clk_wiz_0_100M' of component 'ublaze_system_rst_clk_wiz_0_100M_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:3168]
-INFO: [Synth 8-638] synthesizing module 'ublaze_system_rst_clk_wiz_0_100M_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-24524-DESKTOP-1AMI1JA/realtime/ublaze_system_rst_clk_wiz_0_100M_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'ublaze_system_rst_clk_wiz_0_100M_0' declared at 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_rst_clk_wiz_0_100M_0_stub.vhdl:5' bound to instance 'rst_clk_wiz_0_100M' of component 'ublaze_system_rst_clk_wiz_0_100M_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:3168]
+INFO: [Synth 8-638] synthesizing module 'ublaze_system_rst_clk_wiz_0_100M_0' [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/.Xil/Vivado-22872-DESKTOP-1AMI1JA/realtime/ublaze_system_rst_clk_wiz_0_100M_0_stub.vhdl:21]
 INFO: [Synth 8-256] done synthesizing module 'ublaze_system' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/synth/ublaze_system.vhd:2288]
 INFO: [Synth 8-256] done synthesizing module 'ublaze_system_wrapper' (0#1) [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/hdl/ublaze_system_wrapper.vhd:28]
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_TNCJKQ is either unconnected or has no load
@@ -130,18 +129,18 @@ WARNING: [Synth 8-7129] Port M05_ARESETN in module ublaze_system_microblaze_0_ax
 WARNING: [Synth 8-7129] Port S00_ACLK in module ublaze_system_microblaze_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module ublaze_system_microblaze_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1956.512 ; gain = 510.418
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1956.512 ; gain = 510.418
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1956.512 ; gain = 510.418
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1956.512 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1956.191 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -182,24 +181,24 @@ Parsing XDC File [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_
 Finished Parsing XDC File [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1956.512 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1956.191 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1956.512 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1956.191 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ublaze_system_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1956.512 ; gain = 510.418
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1956.512 ; gain = 510.418
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -225,10 +224,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for ublaze_system_i/axi_gpio_2. (cons
 Applied set_property KEEP_HIERARCHY = SOFT for ublaze_system_i/axi_uartlite_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ublaze_system_i/axi_timer_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1956.512 ; gain = 510.418
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1956.512 ; gain = 510.418
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -265,25 +264,25 @@ WARNING: [Synth 8-7129] Port M05_ARESETN in module ublaze_system_microblaze_0_ax
 WARNING: [Synth 8-7129] Port S00_ACLK in module ublaze_system_microblaze_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module ublaze_system_microblaze_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1956.512 ; gain = 510.418
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1957.602 ; gain = 511.508
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1957.602 ; gain = 511.508
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1956.191 ; gain = 512.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1968.305 ; gain = 524.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -301,37 +300,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.305 ; gain = 524.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.305 ; gain = 524.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.305 ; gain = 524.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.305 ; gain = 524.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.305 ; gain = 524.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.305 ; gain = 524.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -383,16 +382,16 @@ Report Cell Usage:
 |18    |OBUF                                       |    29|
 +------+-------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.305 ; gain = 524.375
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 15 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1969.320 ; gain = 523.227
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1969.320 ; gain = 523.227
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1968.305 ; gain = 524.375
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.305 ; gain = 524.375
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1981.227 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1980.188 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1984.859 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1983.883 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -400,7 +399,7 @@ Synth Design complete, checksum: b56df5e6
 INFO: [Common 17-83] Releasing license: Synthesis
 78 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1984.859 ; gain = 918.691
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1983.883 ; gain = 918.637
 INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/synth_1/ublaze_system_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ublaze_system_wrapper_utilization_synth.rpt -pb ublaze_system_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon May  5 14:35:12 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon May  5 16:58:24 2025...
