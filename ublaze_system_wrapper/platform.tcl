@@ -26,3 +26,10 @@ platform generate -domains
 platform config -updatehw {C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa}
 platform generate -domains 
 platform generate
+platform active {ublaze_system_wrapper}
+platform generate -domains standalone_microblaze_0 
+platform clean
+platform active {ublaze_system_wrapper}
+bsp reload
+bsp reload
+platform generate

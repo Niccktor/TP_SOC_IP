@@ -54,6 +54,7 @@
 #include "xintc.h"
 #include "xtmrctr.h"
 
+
 #define GPIO_DEVICE_ID	XPAR_GPIO_0_DEVICE_ID
 #define LED_CHANNEL		2
 #define	SWITCH_CHANNEL	1
@@ -69,7 +70,45 @@
 static XTmrCtr TimerInst;
 static XIntc   IntcInst;
 
+#define SEG7IP_S00_AXI_SLV_REG0_OFFSET 0
+#define SEG7IP_S00_AXI_SLV_REG1_OFFSET 4
+#define SEG7IP_S00_AXI_SLV_REG2_OFFSET 8
+#define SEG7IP_S00_AXI_SLV_REG3_OFFSET 12
+#define SEG7IP_mWriteReg(BaseAddress, RegOffset, Data) \
+  	Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+#define SEG7IP_mReadReg(BaseAddress, RegOffset) \
+    Xil_In32((BaseAddress) + (RegOffset))
+#define READ_WRITE_MUL_FACTOR 0x10
+XStatus SEG7IP_Reg_SelfTest(void * baseaddr_p)
+{
+	u32 baseaddr;
+	int write_loop_index;
+	int read_loop_index;
+	int Index;
 
+	baseaddr = (u32) baseaddr_p;
+
+	xil_printf("******************************\n\r");
+	xil_printf("* User Peripheral Self Test\n\r");
+	xil_printf("******************************\n\n\r");
+
+	/*
+	 * Write to user logic slave module register(s) and read back
+	 */
+	xil_printf("User logic slave module test...\n\r");
+
+	for (write_loop_index = 0 ; write_loop_index < 4; write_loop_index++)
+	  SEG7IP_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+	for (read_loop_index = 0 ; read_loop_index < 4; read_loop_index++)
+	  if ( SEG7IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+	    xil_printf ("Error reading register value at address %x\n", (int)baseaddr + read_loop_index*4);
+	    return XST_FAILURE;
+	  }
+
+	xil_printf("   - slave register write/read passed\n\n\r");
+
+	return XST_SUCCESS;
+}
 
 
 
@@ -348,17 +387,30 @@ int GPIO_Init(void)
 	return (0);
 }
 
+void init_REG() {
+    // Initialisation des registres
+	SEG7IP_mWriteReg(0x44A00000, SEG7IP_S00_AXI_SLV_REG0_OFFSET, 2);
+    SEG7IP_mWriteReg(0x44A00000, SEG7IP_S00_AXI_SLV_REG1_OFFSET, 6);
+    SEG7IP_mWriteReg(0x44A00000, SEG7IP_S00_AXI_SLV_REG2_OFFSET, 3);
+    SEG7IP_mWriteReg(0x44A00000, SEG7IP_S00_AXI_SLV_REG3_OFFSET, 5);
 
+    // Lecture et affichage des registres
+    xil_printf("Reg0 = %lu\n\r", SEG7IP_mReadReg(0x44A00000, SEG7IP_S00_AXI_SLV_REG0_OFFSET));
+    xil_printf("Reg1 = %lu\n\r", SEG7IP_mReadReg(0x44A00000, SEG7IP_S00_AXI_SLV_REG1_OFFSET));
+    xil_printf("Reg2 = %lu\n\r", SEG7IP_mReadReg(0x44A00000, SEG7IP_S00_AXI_SLV_REG2_OFFSET));
+    xil_printf("Reg3 = %lu\n\r", SEG7IP_mReadReg(0x44A00000, SEG7IP_S00_AXI_SLV_REG3_OFFSET));
+}
 
 int main()
 {
 	init_platform();
 
 	GPIO_Init();
-	Timer_init();
+	SEG7IP_Reg_SelfTest(0x44A00000);
+	//Timer_init();
 
 
-	refresh7seg();
+	//refresh7seg();
 	/*test7seg();
 	test_led();
 	switch2leds();

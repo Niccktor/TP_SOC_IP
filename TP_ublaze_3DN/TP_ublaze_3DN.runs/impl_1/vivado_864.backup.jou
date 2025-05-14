@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed May 14 17:09:28 2025
+# Process ID: 864
+# Current directory: C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1
+# Command line: vivado.exe -log ublaze_system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ublaze_system_wrapper.tcl -notrace
+# Log file: C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1/ublaze_system_wrapper.vdi
+# Journal file: C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/impl_1\vivado.jou
+# Running On: DESKTOP-1AMI1JA, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 68388 MB
+#-----------------------------------------------------------
+source ublaze_system_wrapper.tcl -notrace

@@ -48,6 +48,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../ip_repo/Seg7IP_1_0"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>
@@ -97,53 +98,56 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_microblaze_0_3/ublaze_system_microblaze_0_3.xci">
-          <Proxy FileSetName="ublaze_system_microblaze_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_dlmb_v10_0/ublaze_system_dlmb_v10_0.xci">
-          <Proxy FileSetName="ublaze_system_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_ilmb_v10_0/ublaze_system_ilmb_v10_0.xci">
-          <Proxy FileSetName="ublaze_system_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_dlmb_bram_if_cntlr_0/ublaze_system_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="ublaze_system_dlmb_bram_if_cntlr_0"/>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_Seg7IP_0_2/ublaze_system_Seg7IP_0_2.xci">
+          <Proxy FileSetName="ublaze_system_Seg7IP_0_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_clk_wiz_0_0/ublaze_system_clk_wiz_0_0.xci">
           <Proxy FileSetName="ublaze_system_clk_wiz_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_ilmb_bram_if_cntlr_0/ublaze_system_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="ublaze_system_ilmb_bram_if_cntlr_0"/>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_microblaze_0_3/ublaze_system_microblaze_0_3.xci">
+          <Proxy FileSetName="ublaze_system_microblaze_0_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_lmb_bram_0/ublaze_system_lmb_bram_0.xci">
-          <Proxy FileSetName="ublaze_system_lmb_bram_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_axi_uartlite_0_1/ublaze_system_axi_uartlite_0_1.xci">
-          <Proxy FileSetName="ublaze_system_axi_uartlite_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_axi_gpio_2_0/ublaze_system_axi_gpio_2_0.xci">
-          <Proxy FileSetName="ublaze_system_axi_gpio_2_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_xbar_0/ublaze_system_xbar_0.xci">
-          <Proxy FileSetName="ublaze_system_xbar_0"/>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0.xci">
+          <Proxy FileSetName="ublaze_system_microblaze_0_axi_intc_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_axi_gpio_0_1/ublaze_system_axi_gpio_0_1.xci">
           <Proxy FileSetName="ublaze_system_axi_gpio_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_axi_gpio_1_1/ublaze_system_axi_gpio_1_1.xci">
-          <Proxy FileSetName="ublaze_system_axi_gpio_1_1"/>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_ilmb_v10_0/ublaze_system_ilmb_v10_0.xci">
+          <Proxy FileSetName="ublaze_system_ilmb_v10_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_mdm_1_0/ublaze_system_mdm_1_0.xci">
-          <Proxy FileSetName="ublaze_system_mdm_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_rst_clk_wiz_0_100M_0/ublaze_system_rst_clk_wiz_0_100M_0.xci">
-          <Proxy FileSetName="ublaze_system_rst_clk_wiz_0_100M_0"/>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_axi_gpio_2_0/ublaze_system_axi_gpio_2_0.xci">
+          <Proxy FileSetName="ublaze_system_axi_gpio_2_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_axi_timer_0_0/ublaze_system_axi_timer_0_0.xci">
           <Proxy FileSetName="ublaze_system_axi_timer_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_microblaze_0_axi_intc_0/ublaze_system_microblaze_0_axi_intc_0.xci">
-          <Proxy FileSetName="ublaze_system_microblaze_0_axi_intc_0"/>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_xbar_0/ublaze_system_xbar_0.xci">
+          <Proxy FileSetName="ublaze_system_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_dlmb_v10_0/ublaze_system_dlmb_v10_0.xci">
+          <Proxy FileSetName="ublaze_system_dlmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_lmb_bram_0/ublaze_system_lmb_bram_0.xci">
+          <Proxy FileSetName="ublaze_system_lmb_bram_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_dlmb_bram_if_cntlr_0/ublaze_system_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="ublaze_system_dlmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_mdm_1_0/ublaze_system_mdm_1_0.xci">
+          <Proxy FileSetName="ublaze_system_mdm_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_ilmb_bram_if_cntlr_0/ublaze_system_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="ublaze_system_ilmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_rst_clk_wiz_0_100M_0/ublaze_system_rst_clk_wiz_0_100M_0.xci">
+          <Proxy FileSetName="ublaze_system_rst_clk_wiz_0_100M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_axi_gpio_1_1/ublaze_system_axi_gpio_1_1.xci">
+          <Proxy FileSetName="ublaze_system_axi_gpio_1_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ublaze_system.bd" FileRelPathName="ip/ublaze_system_axi_uartlite_0_1/ublaze_system_axi_uartlite_0_1.xci">
+          <Proxy FileSetName="ublaze_system_axi_uartlite_0_1"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/ublaze_system/hdl/ublaze_system_wrapper.vhd">
@@ -160,7 +164,14 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/new/test.xdc">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
       <Config>
+        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/test.xdc"/>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>
@@ -288,6 +299,12 @@
     <FileSet Name="ublaze_system_lmb_bram_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ublaze_system_lmb_bram_0" RelGenDir="$PGENDIR/ublaze_system_lmb_bram_0">
       <Config>
         <Option Name="TopModule" Val="ublaze_system_lmb_bram_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ublaze_system_Seg7IP_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ublaze_system_Seg7IP_0_2" RelGenDir="$PGENDIR/ublaze_system_Seg7IP_0_2">
+      <Config>
+        <Option Name="TopModule" Val="ublaze_system_Seg7IP_0_2"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -474,6 +491,18 @@
     <Run Id="ublaze_system_lmb_bram_0_synth_1" Type="Ft3:Synth" SrcSet="ublaze_system_lmb_bram_0" Part="xc7a35tcpg236-1" ConstrsSet="ublaze_system_lmb_bram_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/ublaze_system_lmb_bram_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ublaze_system_lmb_bram_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ublaze_system_lmb_bram_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ublaze_system_Seg7IP_0_2_synth_1" Type="Ft3:Synth" SrcSet="ublaze_system_Seg7IP_0_2" Part="xc7a35tcpg236-1" ConstrsSet="ublaze_system_Seg7IP_0_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/ublaze_system_Seg7IP_0_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ublaze_system_Seg7IP_0_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ublaze_system_Seg7IP_0_2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -757,6 +786,25 @@
     <Run Id="ublaze_system_lmb_bram_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="ublaze_system_lmb_bram_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ublaze_system_lmb_bram_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ublaze_system_lmb_bram_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ublaze_system_lmb_bram_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ublaze_system_Seg7IP_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="ublaze_system_Seg7IP_0_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ublaze_system_Seg7IP_0_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ublaze_system_Seg7IP_0_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ublaze_system_Seg7IP_0_2_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1'
+HD_PWD='C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

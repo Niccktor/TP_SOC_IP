@@ -1,26 +1,34 @@
-16:58:10 **** Build of configuration Debug for project TP_ublaze_Software_3D ****
+17:11:40 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Workspace/TP_SOC_IP/ublaze_systeme_wrapper_SegIP/export/ublaze_systeme_wrapper_SegIP/sw/ublaze_systeme_wrapper_SegIP/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'SEG7IP_Reg_SelfTest':
+../src/helloworld.c:87:13: warning: unused variable 'Index' [-Wunused-variable]
+   87 |         int Index;
+      |             ^~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:409:29: warning: passing argument 1 of 'SEG7IP_Reg_SelfTest' makes pointer from integer without a cast [-Wint-conversion]
+  409 |         SEG7IP_Reg_SelfTest(0x44A00000);
+      |                             ^~~~~~~~~~
+      |                             |
+      |                             int
+../src/helloworld.c:82:36: note: expected 'void *' but argument is of type 'int'
+   82 | XStatus SEG7IP_Reg_SelfTest(void * baseaddr_p)
+      |                             ~~~~~~~^~~~~~~~~~
 'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
 ' '
 'Building target: TP_ublaze_Software_3D.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Workspace/TP_SOC_IP/ublaze_system_wrapper/export/ublaze_system_wrapper/sw/ublaze_system_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TP_ublaze_Software_3D.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Workspace/TP_SOC_IP/ublaze_systeme_wrapper_SegIP/export/ublaze_systeme_wrapper_SegIP/sw/ublaze_systeme_wrapper_SegIP/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TP_ublaze_Software_3D.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: TP_ublaze_Software_3D.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
 mb-size TP_ublaze_Software_3D.elf  |tee "TP_ublaze_Software_3D.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   9444	    396	   3360	  13200	   3390	TP_ublaze_Software_3D.elf
+   7704	    368	   3144	  11216	   2bd0	TP_ublaze_Software_3D.elf
 'Finished building: TP_ublaze_Software_3D.elf.size'
 ' '
 
-16:58:12 Build Finished (took 1s.384ms)
+17:11:41 Build Finished (took 880ms)
 

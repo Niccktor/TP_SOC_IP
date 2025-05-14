@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper"/>
+	<item key="sdx.custom.platform.repository.locations" value="C:\Workspace\TP_SOC_IP\ublaze_systeme_wrapper_SegIP\export\ublaze_systeme_wrapper_SegIP;C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper"/>
 	<item key="sdx.custom.platform.repository.last.directory.dialog.location" value="C:\Workspace\TP_SOC_IP\ublaze_system_wrapper\export\ublaze_system_wrapper"/>
 </section>

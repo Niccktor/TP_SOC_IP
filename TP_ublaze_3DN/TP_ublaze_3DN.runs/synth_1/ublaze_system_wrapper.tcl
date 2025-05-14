@@ -70,6 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 4
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -84,6 +85,8 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part_repo_paths {C:/Users/BEGUIN/AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+set_property ip_repo_paths c:/Workspace/TP_SOC_IP/ip_repo/Seg7IP_1_0 [current_project]
+update_ip_catalog
 set_property ip_output_repo c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
@@ -136,6 +139,9 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.srcs/constrs_1/new/test.xdc
+set_property used_in_implementation false [get_files C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.srcs/constrs_1/new/test.xdc]
+
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1

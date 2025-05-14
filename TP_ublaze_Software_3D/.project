@@ -4,6 +4,7 @@
 	<comment>Created by Vitis v2022.2</comment>
 	<projects>
 		<project>ublaze_system_wrapper</project>
+		<project>ublaze_systeme_wrapper_SegIP</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

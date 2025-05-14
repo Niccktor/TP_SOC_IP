@@ -2,16 +2,19 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Mon Apr 28 14:24:11 2025
-# Process ID: 23308
-# Current directory: C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1
+# Start of session at: Wed May 14 15:06:20 2025
+# Process ID: 3652
+# Current directory: C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1
 # Command line: vivado.exe -log ublaze_system_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ublaze_system_xbar_0.tcl
-# Log file: C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/ublaze_system_xbar_0.vds
-# Journal file: C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1\vivado.jou
+# Log file: C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/ublaze_system_xbar_0.vds
+# Journal file: C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1\vivado.jou
 # Running On: DESKTOP-1AMI1JA, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 68388 MB
 #-----------------------------------------------------------
 source ublaze_system_xbar_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1001.543 ; gain = 117.594
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1001.750 ; gain = 117.645
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Workspace/TP_SOC_IP/ip_repo/Seg7IP_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ublaze_system_xbar_0
 Command: synth_design -top ublaze_system_xbar_0 -part xc7a35tcpg236-1 -incremental_mode off -mode out_of_context
 Starting synth_design
@@ -20,55 +23,57 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 6008
+INFO: [Synth 8-7075] Helper process launched with PID 23116
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1833.770 ; gain = 406.793
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1833.324 ; gain = 407.676
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'ublaze_system_xbar_0' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_xbar_0/synth/ublaze_system_xbar_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_axi_crossbar' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4883]
-INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_crossbar_sasd' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:1239]
-INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_addr_decoder' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:793]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:61]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:61]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_addr_decoder' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:793]
-INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_decerr_slave' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_decerr_slave' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
-INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_addr_arbiter_sasd' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:64]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_addr_arbiter_sasd' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:64]
-INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_splitter' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4460]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_splitter' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4460]
-INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_splitter__parameterized0' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4460]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_splitter__parameterized0' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4460]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_27_axic_register_slice' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/f0b4/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_27_axic_register_slice' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/f0b4/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
-INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_crossbar_sasd' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:1239]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_axi_crossbar' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4883]
-INFO: [Synth 8-6155] done synthesizing module 'ublaze_system_xbar_0' (0#1) [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_xbar_0/synth/ublaze_system_xbar_0.v:53]
-WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_aw_trans_seq_i_reg was removed.  [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:2056]
-WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_ar_trans_seq_i_reg was removed.  [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:2067]
-WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_w_beat_cnt_i_reg was removed.  [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:2078]
-WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_r_beat_cnt_i_reg was removed.  [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:2091]
+INFO: [Synth 8-6157] synthesizing module 'ublaze_system_xbar_0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_xbar_0/synth/ublaze_system_xbar_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_axi_crossbar' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4883]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_crossbar_sasd' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:1239]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_addr_decoder' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:793]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized5' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized5' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_addr_decoder' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:793]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_decerr_slave' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_decerr_slave' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_addr_arbiter_sasd' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_addr_arbiter_sasd' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_splitter' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4460]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_splitter' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4460]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_28_splitter__parameterized0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4460]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_splitter__parameterized0' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4460]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_27_axic_register_slice' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/f0b4/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_27_axic_register_slice' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/f0b4/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2451]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_crossbar_sasd' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:1239]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_28_axi_crossbar' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:4883]
+INFO: [Synth 8-6155] done synthesizing module 'ublaze_system_xbar_0' (0#1) [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_xbar_0/synth/ublaze_system_xbar_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_aw_trans_seq_i_reg was removed.  [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:2056]
+WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_ar_trans_seq_i_reg was removed.  [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:2067]
+WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_w_beat_cnt_i_reg was removed.  [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:2078]
+WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_r_beat_cnt_i_reg was removed.  [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v:2091]
 WARNING: [Synth 8-7129] Port S[0] in module generic_baseblocks_v2_1_0_mux_enc__parameterized0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_28_decerr_slave is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_AXI_WLAST in module axi_crossbar_v2_1_28_decerr_slave is either unconnected or has no load
@@ -85,12 +90,14 @@ WARNING: [Synth 8-7129] Port ADDR[1] in module axi_crossbar_v2_1_28_addr_decoder
 WARNING: [Synth 8-7129] Port ADDR[0] in module axi_crossbar_v2_1_28_addr_decoder is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_AXI_ARID[0] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_BID[6] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[5] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[4] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[3] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[2] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[1] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[0] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_RID[6] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_RID[5] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_RID[4] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_RID[3] in module axi_crossbar_v2_1_28_crossbar_sasd is either unconnected or has no load
@@ -148,77 +155,75 @@ WARNING: [Synth 8-7129] Port s_axi_arqos[2] in module axi_crossbar_v2_1_28_axi_c
 WARNING: [Synth 8-7129] Port s_axi_arqos[1] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port s_axi_arqos[0] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bid[6] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[5] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[4] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[3] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[2] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[1] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[0] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[6] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_buser[5] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_buser[4] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_buser[3] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_buser[2] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_buser[1] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rid[6] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_rid[5] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_rid[4] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_rid[3] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_rid[2] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_rid[1] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_rid[0] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_rlast[5] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_rlast[4] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_rlast[3] in module axi_crossbar_v2_1_28_axi_crossbar is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:24 ; elapsed = 00:01:46 . Memory (MB): peak = 2059.125 ; gain = 632.148
+Finished RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:25 ; elapsed = 00:01:47 . Memory (MB): peak = 2059.125 ; gain = 632.148
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:25 ; elapsed = 00:01:47 . Memory (MB): peak = 2059.125 ; gain = 632.148
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 2059.125 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2058.422 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_xbar_0/ublaze_system_xbar_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_xbar_0/ublaze_system_xbar_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_xbar_0/ublaze_system_xbar_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ip/ublaze_system_xbar_0/ublaze_system_xbar_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2154.703 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2058.422 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.673 . Memory (MB): peak = 2155.270 ; gain = 0.566
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 2058.422 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:54 ; elapsed = 00:02:19 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Constraint Validation : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:54 ; elapsed = 00:02:19 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:54 ; elapsed = 00:02:19 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:55 ; elapsed = 00:02:21 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:45 ; elapsed = 00:00:52 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -227,17 +232,16 @@ Detailed RTL Component Info :
 +---Registers : 
 	               64 Bit    Registers := 1     
 	               36 Bit    Registers := 2     
-	                7 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
 	                3 Bit    Registers := 2     
 	                2 Bit    Registers := 2     
 	                1 Bit    Registers := 14    
 +---Muxes : 
 	   2 Input   64 Bit        Muxes := 1     
 	   2 Input   36 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
 	   2 Input    7 Bit        Muxes := 1     
-	   2 Input    6 Bit        Muxes := 1     
-	   2 Input    3 Bit        Muxes := 2     
-	   2 Input    1 Bit        Muxes := 57    
+	   2 Input    1 Bit        Muxes := 64    
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -254,27 +258,27 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-INFO: [Synth 8-3936] Found unconnected internal register 'gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/f0b4/hdl/axi_register_slice_v2_1_vl_rfs.v:1731]
+INFO: [Synth 8-3936] Found unconnected internal register 'gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.gen/sources_1/bd/ublaze_system/ipshared/f0b4/hdl/axi_register_slice_v2_1_vl_rfs.v:1731]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:06 ; elapsed = 00:02:33 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:28 ; elapsed = 00:02:59 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:01:02 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:33 ; elapsed = 00:03:03 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Timing Optimization : Time (s): cpu = 00:00:55 ; elapsed = 00:01:03 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:34 ; elapsed = 00:03:05 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Technology Mapping : Time (s): cpu = 00:00:55 ; elapsed = 00:01:03 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -292,37 +296,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:57 ; elapsed = 00:03:30 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished IO Insertion : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:57 ; elapsed = 00:03:30 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:57 ; elapsed = 00:03:30 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:57 ; elapsed = 00:03:30 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:57 ; elapsed = 00:03:30 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:57 ; elapsed = 00:03:30 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -339,35 +343,35 @@ Report Cell Usage:
 |      |Cell |Count |
 +------+-----+------+
 |1     |LUT1 |     1|
-|2     |LUT2 |    17|
-|3     |LUT3 |    31|
-|4     |LUT4 |    50|
-|5     |LUT5 |   111|
-|6     |LUT6 |    81|
-|7     |FDRE |   135|
+|2     |LUT2 |    16|
+|3     |LUT3 |    46|
+|4     |LUT4 |    59|
+|5     |LUT5 |    82|
+|6     |LUT6 |   104|
+|7     |FDRE |   136|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:57 ; elapsed = 00:03:30 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2058.422 ; gain = 632.773
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 82 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:25 ; elapsed = 00:03:21 . Memory (MB): peak = 2155.270 ; gain = 632.148
-Synthesis Optimization Complete : Time (s): cpu = 00:02:58 ; elapsed = 00:03:31 . Memory (MB): peak = 2155.270 ; gain = 728.293
+Synthesis finished with 0 errors, 0 critical warnings and 87 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:01:03 . Memory (MB): peak = 2058.422 ; gain = 632.773
+Synthesis Optimization Complete : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 2058.422 ; gain = 632.773
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.091 . Memory (MB): peak = 2155.270 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2058.422 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2155.270 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2058.422 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 3602a839
+Synth Design complete, checksum: 7084185b
 INFO: [Common 17-83] Releasing license: Synthesis
-58 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+63 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:19 ; elapsed = 00:04:20 . Memory (MB): peak = 2155.270 ; gain = 1106.770
-INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/ublaze_system_xbar_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ublaze_system_xbar_0, cache-ID = 92a4592d8f1a194d
+synth_design: Time (s): cpu = 00:01:04 ; elapsed = 00:01:12 . Memory (MB): peak = 2058.422 ; gain = 1009.328
+INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/ublaze_system_xbar_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ublaze_system_xbar_0, cache-ID = e38ee3dc0d05d875
 INFO: [Coretcl 2-1174] Renamed 7 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/ublaze_system_xbar_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/TP_ublaze_3DN.runs/ublaze_system_xbar_0_synth_1/ublaze_system_xbar_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ublaze_system_xbar_0_utilization_synth.rpt -pb ublaze_system_xbar_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 28 14:29:43 2025...
+INFO: [Common 17-206] Exiting Vivado at Wed May 14 15:07:49 2025...
