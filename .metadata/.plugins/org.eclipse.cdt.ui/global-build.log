@@ -2,37 +2,9 @@ Nothing to build in platform 'ublaze_system_wrapper'
 
 Nothing to build in platform 'ublaze_systeme_wrapper_SegIP'
 
-17:11:40 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
+17:20:22 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D ****
 make all 
-'Building file: ../src/helloworld.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Workspace/TP_SOC_IP/ublaze_systeme_wrapper_SegIP/export/ublaze_systeme_wrapper_SegIP/sw/ublaze_systeme_wrapper_SegIP/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'SEG7IP_Reg_SelfTest':
-../src/helloworld.c:87:13: warning: unused variable 'Index' [-Wunused-variable]
-   87 |         int Index;
-      |             ^~~~~
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:409:29: warning: passing argument 1 of 'SEG7IP_Reg_SelfTest' makes pointer from integer without a cast [-Wint-conversion]
-  409 |         SEG7IP_Reg_SelfTest(0x44A00000);
-      |                             ^~~~~~~~~~
-      |                             |
-      |                             int
-../src/helloworld.c:82:36: note: expected 'void *' but argument is of type 'int'
-   82 | XStatus SEG7IP_Reg_SelfTest(void * baseaddr_p)
-      |                             ~~~~~~~^~~~~~~~~~
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: TP_ublaze_Software_3D.elf'
-'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Workspace/TP_SOC_IP/ublaze_systeme_wrapper_SegIP/export/ublaze_systeme_wrapper_SegIP/sw/ublaze_systeme_wrapper_SegIP/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TP_ublaze_Software_3D.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: TP_ublaze_Software_3D.elf'
-' '
-'Invoking: MicroBlaze Print Size'
-mb-size TP_ublaze_Software_3D.elf  |tee "TP_ublaze_Software_3D.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   7704	    368	   3144	  11216	   2bd0	TP_ublaze_Software_3D.elf
-'Finished building: TP_ublaze_Software_3D.elf.size'
-' '
-17:11:41 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D_system ****
+make: Nothing to be done for 'all'.
+17:20:23 **** Incremental Build of configuration Debug for project TP_ublaze_Software_3D_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

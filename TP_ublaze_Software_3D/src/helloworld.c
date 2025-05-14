@@ -406,7 +406,8 @@ int main()
 	init_platform();
 
 	GPIO_Init();
-	SEG7IP_Reg_SelfTest(0x44A00000);
+	init_REG();
+	//SEG7IP_Reg_SelfTest(0x44A00000);
 	//Timer_init();
 
 

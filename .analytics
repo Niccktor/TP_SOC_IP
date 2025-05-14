@@ -349,3 +349,12 @@ timestamp=[2025-05-14 17:11:29], mode=BUILD, duration=0:00:00.945, duration_ms=9
 timestamp=[2025-05-14 17:11:30], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=TP_ublaze_Software_3D_system, configuration=Debug, clean_build=false}
 timestamp=[2025-05-14 17:11:41], mode=BUILD, duration=0:00:00.884, duration_ms=884, data={name=TP_ublaze_Software_3D, configuration=Debug, clean_build=false}
 timestamp=[2025-05-14 17:11:41], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=TP_ublaze_Software_3D_system, configuration=Debug, clean_build=false}
+timestamp=[2025-05-14 17:16:46], mode=PLATFORM_GENERATION, duration=0:00:04.097, duration_ms=4097, data={name=ublaze_systeme_wrapper_SegIP}
+timestamp=[2025-05-14 17:16:53], mode=PLATFORM_GENERATION, duration=0:00:07.472, duration_ms=7472, data={name=ublaze_systeme_wrapper_SegIP}
+timestamp=[2025-05-14 17:16:57], mode=PLATFORM_GENERATION, duration=0:00:04.070, duration_ms=4070, data={name=ublaze_systeme_wrapper_SegIP}
+timestamp=[2025-05-14 17:17:05], mode=PLATFORM_GENERATION, duration=0:00:05.557, duration_ms=5557, data={name=ublaze_systeme_wrapper_SegIP}
+timestamp=[2025-05-14 17:17:56], mode=BUILD, duration=0:00:01.245, duration_ms=1245, data={name=TP_ublaze_Software_3D, configuration=Debug, clean_build=false}
+timestamp=[2025-05-14 17:20:18], mode=BUILD, duration=0:00:00.899, duration_ms=899, data={name=TP_ublaze_Software_3D, configuration=Debug, clean_build=false}
+timestamp=[2025-05-14 17:20:19], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=TP_ublaze_Software_3D_system, configuration=Debug, clean_build=false}
+timestamp=[2025-05-14 17:20:22], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=TP_ublaze_Software_3D, configuration=Debug, clean_build=false}
+timestamp=[2025-05-14 17:20:23], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=TP_ublaze_Software_3D_system, configuration=Debug, clean_build=false}

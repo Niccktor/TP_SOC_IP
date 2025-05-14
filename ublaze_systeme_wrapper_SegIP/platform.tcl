@@ -23,3 +23,8 @@ bsp write
 bsp reload
 catch {bsp regenerate}
 platform generate
+platform config -updatehw {C:/Workspace/TP_SOC_IP/TP_ublaze_3DN/ublaze_system_wrapper.xsa}
+platform clean
+platform generate
+platform clean
+platform generate

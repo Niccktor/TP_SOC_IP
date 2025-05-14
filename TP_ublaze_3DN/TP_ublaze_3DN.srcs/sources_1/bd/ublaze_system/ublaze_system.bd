@@ -7,8 +7,7 @@
       "name": "ublaze_system",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2022.2",
-      "validated": "true"
+      "tool_version": "2022.2"
     },
     "design_tree": {
       "clk_wiz_0": "",
@@ -35,7 +34,6 @@
       "mdm_1": "",
       "rst_clk_wiz_0_100M": "",
       "axi_gpio_0": "",
-      "axi_gpio_1": "",
       "axi_gpio_2": "",
       "axi_uartlite_0": "",
       "axi_timer_0": "",
@@ -67,16 +65,6 @@
             "right": "0"
           }
         }
-      },
-      "seven_seg_led_an": {
-        "mode": "Master",
-        "vlnv_bus_definition": "xilinx.com:interface:gpio:1.0",
-        "vlnv": "xilinx.com:interface:gpio_rtl:1.0"
-      },
-      "seven_seg_led_disp": {
-        "mode": "Master",
-        "vlnv_bus_definition": "xilinx.com:interface:gpio:1.0",
-        "vlnv": "xilinx.com:interface:gpio_rtl:1.0"
       },
       "push_buttons_4bits": {
         "mode": "Master",
@@ -112,20 +100,8 @@
         "type": "clk",
         "direction": "I",
         "parameters": {
-          "CLK_DOMAIN": {
-            "value": "ublaze_system_sys_clock",
-            "value_src": "default"
-          },
           "FREQ_HZ": {
             "value": "100000000"
-          },
-          "FREQ_TOLERANCE_HZ": {
-            "value": "0",
-            "value_src": "default"
-          },
-          "INSERT_VIP": {
-            "value": "0",
-            "value_src": "default"
           },
           "PHASE": {
             "value": "0.0"
@@ -136,10 +112,6 @@
         "type": "rst",
         "direction": "I",
         "parameters": {
-          "INSERT_VIP": {
-            "value": "0",
-            "value_src": "default"
-          },
           "POLARITY": {
             "value": "ACTIVE_HIGH"
           }
@@ -1278,26 +1250,6 @@
           }
         }
       },
-      "axi_gpio_1": {
-        "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "xci_name": "ublaze_system_axi_gpio_1_1",
-        "xci_path": "ip\\ublaze_system_axi_gpio_1_1\\ublaze_system_axi_gpio_1_1.xci",
-        "inst_hier_path": "axi_gpio_1",
-        "parameters": {
-          "C_INTERRUPT_PRESENT": {
-            "value": "0"
-          },
-          "GPIO2_BOARD_INTERFACE": {
-            "value": "seven_seg_led_disp"
-          },
-          "GPIO_BOARD_INTERFACE": {
-            "value": "seven_seg_led_an"
-          },
-          "USE_BOARD_FLOW": {
-            "value": "true"
-          }
-        }
-      },
       "axi_gpio_2": {
         "vlnv": "xilinx.com:ip:axi_gpio:2.0",
         "xci_name": "ublaze_system_axi_gpio_2_0",
@@ -1377,12 +1329,6 @@
         "interface_ports": [
           "microblaze_0_axi_periph/M01_AXI",
           "axi_gpio_0/S_AXI"
-        ]
-      },
-      "microblaze_0_axi_periph_M02_AXI": {
-        "interface_ports": [
-          "microblaze_0_axi_periph/M02_AXI",
-          "axi_gpio_1/S_AXI"
         ]
       },
       "microblaze_0_axi_periph_M03_AXI": {
@@ -1484,7 +1430,6 @@
           "rst_clk_wiz_0_100M/slowest_sync_clk",
           "axi_gpio_0/s_axi_aclk",
           "microblaze_0_axi_periph/M01_ACLK",
-          "axi_gpio_1/s_axi_aclk",
           "microblaze_0_axi_periph/M02_ACLK",
           "axi_gpio_2/s_axi_aclk",
           "microblaze_0_axi_periph/M03_ACLK",
@@ -1525,7 +1470,6 @@
           "microblaze_0_axi_intc/s_axi_aresetn",
           "axi_gpio_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M01_ARESETN",
-          "axi_gpio_1/s_axi_aresetn",
           "microblaze_0_axi_periph/M02_ARESETN",
           "axi_gpio_2/s_axi_aresetn",
           "microblaze_0_axi_periph/M03_ARESETN",
@@ -1559,11 +1503,6 @@
               "SEG_axi_gpio_0_Reg": {
                 "address_block": "/axi_gpio_0/S_AXI/Reg",
                 "offset": "0x40000000",
-                "range": "64K"
-              },
-              "SEG_axi_gpio_1_Reg": {
-                "address_block": "/axi_gpio_1/S_AXI/Reg",
-                "offset": "0x40010000",
                 "range": "64K"
               },
               "SEG_axi_gpio_2_Reg": {
